@@ -1,1 +1,4 @@
-document.write(<img src="public\images\スマホ.png"></img>);
+function tap(){
+    window.location.href = "page/mokuzi.html";
+    alert("ぼたん");
+}
