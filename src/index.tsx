@@ -4,12 +4,14 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { Route, BrowserRouter } from "react-router-dom";
 import Top from "./routes/top";
+import Contents from "./routes/contents";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <div>
         <Route exact path="/" component={Top} />
+        <Route exact path="/contents" component={Contents} />
       </div>
     </BrowserRouter>
   </React.StrictMode>,

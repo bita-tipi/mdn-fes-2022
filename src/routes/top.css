@@ -1,3 +1,39 @@
-.main {
-    
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url("/src/assets/img/top_back.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 38% 50%;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.top_container {
+  position: relative;
+  padding: 20px;
+}
+
+.top_center {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  min-height: 50vh;
+}
+
+.top_link {
+  position: absolute;
+  transform: translate(-50%, -125%);
+  min-height: 8vh;
 }
