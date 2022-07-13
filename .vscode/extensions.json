@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "streetsidesoftware.code-spell-checker",
+        "yoshinorin.current-file-path",
+        "philhindle.errorlens",
+        "oderwat.indent-rainbow",
+        "pkief.material-icon-theme",
+        "esbenp.prettier-vscode",
+        "mosapride.zenkaku",
+        "msjsdiag.vscode-react-native"
+    ]
+}
