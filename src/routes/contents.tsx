@@ -10,8 +10,9 @@ import { Link, NavLink, useHistory } from "react-router-dom";
 
 function Contents() {
     return (
-        <div className="App">
-            <header className="App-header">
+
+        <div>
+            <header className="background_contents">
 
             </header>
         </div>

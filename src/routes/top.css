@@ -34,6 +34,16 @@
 
 .top_link {
   position: absolute;
-  transform: translate(-50%, -125%);
+  transform: translate(-50%, -80%);
+  min-height: 8vh;
+}
+.schedule {
+  position: absolute;
+  transform: translate(93%, -220%);
+  min-height: 8vh;
+}
+.obi {
+  position: absolute;
+  transform: translate(90%, -100%);
   min-height: 8vh;
 }
