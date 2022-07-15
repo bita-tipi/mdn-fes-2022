@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import { Route, BrowserRouter } from "react-router-dom";
 import Top from "./routes/top";
 import Contents from "./routes/contents";
+import Header from "./routes/header"
 import Top_back from "./routes/top_back";
 
 ReactDOM.render(
@@ -14,6 +15,7 @@ ReactDOM.render(
         <Route exact path="/" component={Top} />
         <Route exact path="/contents" component={Contents} />
         <Route exact path="/top_back" component={Top_back} />
+        <Route exact path="/header" component={Header} />
       </div>
     </BrowserRouter>
   </React.StrictMode>,

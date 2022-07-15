@@ -8,8 +8,6 @@ import obi from "../assets/img/2022.svg"
 import './top.css';
 import { Link, NavLink, useHistory } from "react-router-dom";
 
-
-
 function Top() {
     return (
         <div className="App">
