@@ -6,6 +6,7 @@ import { Route, BrowserRouter } from "react-router-dom";
 import Top from "./routes/top";
 import Contents from "./routes/contents";
 import Top_back from "./routes/top_back";
+import Tyui from "./routes/tyui";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.render(
         <Route exact path="/" component={Top} />
         <Route exact path="/contents" component={Contents} />
         <Route exact path="/top_back" component={Top_back} />
+        <Route exact path="/tyui" component={Tyui} />
       </div>
     </BrowserRouter>
   </React.StrictMode>,
