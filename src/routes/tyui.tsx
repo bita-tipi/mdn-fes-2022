@@ -13,6 +13,9 @@ import { Link, NavLink, useHistory } from "react-router-dom";
 function Tyui() {
     return (
         <div className="App">
+            <header className=".background_tyui">
+
+            </header>
 
         </div>
     );
