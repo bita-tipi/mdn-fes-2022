@@ -8,6 +8,8 @@ import Contents from "./routes/contents";
 import Header from "./routes/header"
 import Top_back from "./routes/top_back";
 import Tyui from "./routes/tyui";
+import Map from "./routes/map";
+import Stamp_rally from "./routes/stamp_rally";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +20,8 @@ ReactDOM.render(
         <Route exact path="/top_back" component={Top_back} />
         <Route exact path="/tyui" component={Tyui} />
         <Route exact path="/header" component={Header} />
+        <Route exact path="/map" component={Map} />
+        <Route exact path="/stamp_rally" component={Stamp_rally} />
       </div>
     </BrowserRouter>
   </React.StrictMode>,
