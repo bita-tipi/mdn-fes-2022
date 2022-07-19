@@ -7,7 +7,7 @@ import schedule from "../assets/img/schedule.svg"
 import obi from "../assets/img/2022.svg"
 import "./top.css";
 import { Link, NavLink, useHistory } from "react-router-dom";
-import Header from "../header"
+import Header from "./header"
 
 
 function Top() {
