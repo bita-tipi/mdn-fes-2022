@@ -1,6 +1,6 @@
 .background_tyui{
     background-color: rgb(187, 225, 231);
-    min-height: 200vh;
+    min-height: 250vh;
     min-width: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,10 +12,19 @@
    }
    .left_over{
     position: absolute;
-    transform: translate(-300%, -270%);
-    min-height: 10vh;
-    margin: 500px;
+    transform: translate(-115%, -90%);
+    min-height: 50vh;
+    height: 90vh;
    }
    .back{
-   transform: translate(50%,50%);
+    position: absolute;
+    transform: translate(-50%, -110%);
+    min-height: 10vh;
+    height:140vh;
+   }
+   .back2{
+    position: absolute;
+    transform: translate(-50%, -10%);
+    min-height: 10vh;
+    height:140vh;
    }

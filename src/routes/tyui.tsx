@@ -10,7 +10,8 @@ function Tyui() {
     <div>
         <header className="background_tyui">
             <div>
-            <img src={back} className="back"/>   
+            <img src={back} className="back"/>
+            <img src={back} className="back2"/>      
             <img src={left_over} className="left_over"/>
             </div>
         </header>
