@@ -14,3 +14,9 @@
   transform: translate(-50%, -80%);
   min-height: 8vh;
 }
+.contents_map{
+  position: absolute;
+    transform: translate(-50%,-50%);
+    min-height: 10vh;
+    height: 90vh;
+}
