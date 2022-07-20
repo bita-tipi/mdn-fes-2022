@@ -12,7 +12,7 @@
    }
    .left_over{
     position: absolute;
-    transform: translate(-115%, -90%);
+    transform: translate(-115%, -110%);
     min-height: 50vh;
     height: 90vh;
    }
@@ -27,4 +27,22 @@
     transform: translate(-50%, -10%);
     min-height: 10vh;
     height:140vh;
+   }
+   .right_over{
+    position: absolute;
+    transform: translate(13%,-65%);
+    min-height: 10vh;
+    height: 90vh;
+   }
+   .left_bottom{
+    position: absolute;
+    transform: translate(-115%,5%);
+    min-height: 10vh;
+    height: 120vh;
+   }
+   .right_bottom{
+    position: absolute;
+    transform: translate(13%,40%);
+    min-height: 10vh;
+    height: 100vh;
    }
