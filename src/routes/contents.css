@@ -14,9 +14,21 @@
   transform: translate(-50%, -80%);
   min-height: 8vh;
 }
+.contents_tyui{
+  position: absolute;
+    transform: translate(-50%,100%);
+    min-height: 10vh;
+    height: 8vh;
+}
 .contents_map{
   position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-250%);
     min-height: 10vh;
-    height: 90vh;
+    height: 8vh;
+}
+.contents_event{
+  position: absolute;
+    transform: translate(0%,-400%);
+    min-height: 5vh;
+    height: 8vh;
 }
