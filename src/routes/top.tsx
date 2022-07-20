@@ -12,8 +12,8 @@ import Header from "./header"
 
 function Top() {
     return (
-        <div className="App">
-            <div className="top_container">
+        <body className="top_container">
+            <div>
                 <div className="top_center">
                     <Header/>
                     <img src={top_center} />
@@ -28,7 +28,7 @@ function Top() {
                     <img src={obi} />
                 </div>
             </div>
-        </div>
+        </body>
     );
 }
 

@@ -1,29 +1,32 @@
 .top_container {
-  height: 100vh;
-  min-width: 100%;
+  height: 120vh;
+  width: 10vh;
+  min-width: 110%;
   background-image: url("/src/assets/img/top_back.svg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: 38% top;
+  background-position: 40% top;
 }
 
 .top_center {
   position: absolute;
-  top: 50%;
-  left: 24%;
-  transform: translate(-50%, -50%);
+  transform: translate(3%, 35%);
+  height:60vh;
 }
 
 .top_center img {
-  width: 300%;
+  width: 130%;
 }
 
 .schedule {
-  height: 13vh;
+  height: 40vh;
+  max-height:70%;
   position: absolute;
-  width: 10vh;
-  top:14%;
-  left:185%;
+  width:10vh;
+  max-width:23%;
+  top:-6%;
+  left:99%;
+  transform: translate(-25%, -10%);
 }
 
 .schedule img {
@@ -31,11 +34,11 @@
 }
 
 .top_link {
-  width: 170%;
+  width: 100%;
   position: absolute;
-  top: 40%;
-  right: -220%;
-  transform: translate(0%, -50%);
+  top: 45%;
+  right: -57%;
+  transform: translate(30%, -50%);
 }
 
 .top_link img {
@@ -47,12 +50,18 @@
   height: 6vh;
   max-width: 50%;
   position: absolute;
-  top: 94%;
-  right: 0%;
   overflow: hidden;
+  transform: translate(100%,100%);
   /* transform: translate(0%, 150%); */
 }
 
 .obi img {
   height: 100%;
+}
+
+.left_over{
+ position: absolute;
+ transform: translate(-115%, -90%);
+ min-height: 50vh;
+ height: 90vh;
 }
