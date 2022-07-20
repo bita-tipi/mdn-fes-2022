@@ -30,7 +30,7 @@
    }
    .right_over{
     position: absolute;
-    transform: translate(13%,-65%);
+    transform: translate(4%,-65%);
     min-height: 10vh;
     height: 90vh;
    }
