@@ -23,6 +23,6 @@
    .left_over{
     position: absolute;
     transform: translate(-50%, -50%);
-    margin:300px;
+    margin: 500px;
     min-height: 8vh;
    }
