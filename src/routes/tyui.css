@@ -1,28 +1,30 @@
 .background_tyui{
     background-color: rgb(187, 225, 231);
-    min-height: 100vh;
+    min-height: 250vh;
+    min-width: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    background-repeat: no-repeat;
-    background-size: cover;
-   }
-   .back{
-    background-image: "tyui_background.svg";
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat:repeat;
+    background-size:contain;
    }
    .left_over{
     position: absolute;
-    transform: translate(-50%, -50%);
-    margin:300px;
-    min-height: 8vh;
+    transform: translate(-115%, -90%);
+    min-height: 50vh;
+    height: 90vh;
+   }
+   .back{
+    position: absolute;
+    transform: translate(-50%, -110%);
+    min-height: 10vh;
+    height:140vh;
+   }
+   .back2{
+    position: absolute;
+    transform: translate(-50%, -10%);
+    min-height: 10vh;
+    height:140vh;
    }
