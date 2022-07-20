@@ -10,20 +10,20 @@
 .top_center {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 24%;
   transform: translate(-50%, -50%);
 }
 
 .top_center img {
-  width: 100%;
-  left: 38%;
+  width: 300%;
 }
 
 .schedule {
-  height: 15%;
+  height: 13vh;
   position: absolute;
-  top: 15%;
-  left: 72%;
+  width: 10vh;
+  top:14%;
+  left:185%;
 }
 
 .schedule img {
@@ -31,10 +31,10 @@
 }
 
 .top_link {
-  width: 100%;
+  width: 170%;
   position: absolute;
-  top: 50%;
-  left: 0%;
+  top: 40%;
+  right: -220%;
   transform: translate(0%, -50%);
 }
 
@@ -44,10 +44,10 @@
 
 
 .obi {
-  height: 5vh;
+  height: 6vh;
   max-width: 50%;
   position: absolute;
-  top: 54%;
+  top: 94%;
   right: 0%;
   overflow: hidden;
   /* transform: translate(0%, 150%); */
