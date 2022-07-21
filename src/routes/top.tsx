@@ -19,10 +19,10 @@ function Top() {
                     <Link to={"/top_back"}>
                         <img src={schedule} className="schedule"/>
                     </Link>
-                <div className="top_container">
-                    <Link to={"/contents"}>
-                            <img src={top_link} className="top_link"/>
+                    <Link to={"/contents"} className="top_link">
+                    <img src={top_link}/>
                     </Link>
+                <div className="top_container">
                     <img src={obi}  className="obi"/>
                 </div>
             </div>

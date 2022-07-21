@@ -27,10 +27,10 @@
 }
 
 .top_link {
-  height: 10vh;
+  height:10vh;
   position: absolute;
-  width:17vh;
-  transform: translate(80%, 80%);
+  width:100vh;
+  transform: translate(220%,200%);
 }
 
 .obi {
@@ -42,9 +42,3 @@
   /* transform: translate(0%, 150%); */
 }
 
-.left_over{
- position: absolute;
- transform: translate(-115%, -90%);
- min-height: 50vh;
- height: 90vh;
-}
