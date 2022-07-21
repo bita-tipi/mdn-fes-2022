@@ -14,18 +14,16 @@ function Top() {
     return (
         <body className="top_container">
             <div>
-                <div className="top_center">
                     <Header/>
-                    <img src={top_center} />
-                    <Link to={"/top_back"} className="schedule">
-                        <img src={schedule} />
+                    <img src={top_center} className="top_center"/>
+                    <Link to={"/top_back"}>
+                        <img src={schedule} className="schedule"/>
                     </Link>
-                    <Link to={"/contents"} className="top_link">
-                        <img src={top_link} />
+                <div className="top_container">
+                    <Link to={"/contents"}>
+                            <img src={top_link} className="top_link"/>
                     </Link>
-                </div>
-                <div className="obi">
-                    <img src={obi} />
+                    <img src={obi}  className="obi"/>
                 </div>
             </div>
         </body>
