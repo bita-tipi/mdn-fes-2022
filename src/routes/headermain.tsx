@@ -6,7 +6,7 @@ import backbottun from "../assets/img/backbottun.png"
 
 export default function Header() {
     function handleClick() {
-        history.goBack;
+        history.goBack();
       }
     let history = useHistory();
     return (
