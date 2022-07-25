@@ -1,8 +1,17 @@
-.header{
-    display:flex;
-    width:100%;
-    height:100px;
-    background-color: #f3faf9;
-    align-items:center;
-}
 
+.header{
+    width: 100%;
+    height: 60px;
+    background: #eeeeee;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    display: flex; /* flexboxを作る */
+    align-items: center; /* 上下中央に揃える */
+    justify-content: space-between; /* 両端に配置 */
+    top: 0;
+    position: fixed;
+}
+.back_button{
+    width:80%;
+}

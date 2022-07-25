@@ -7,6 +7,7 @@ import left_bottom from "../assets/img/tyui_left_bottom.svg"
 import right_bottom from "../assets/img/tyui_right_bottom.svg"
 import "./tyui.css";
 import { Link, NavLink, useHistory } from "react-router-dom";
+import Header from "./headermain"
 
 function Tyui() {
     return (
@@ -20,6 +21,7 @@ function Tyui() {
             <img src={left_bottom} className="left_bottom"/>
             <img src={right_bottom} className="right_bottom"/>
             </div>
+        <Header/>
         </header>
     </div>
     );

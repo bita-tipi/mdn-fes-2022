@@ -7,11 +7,12 @@ import schedule from "../assets/img/schedule.svg"
 import obi from "../assets/img/2022.svg"
 import './map.css';
 import { Link, NavLink, useHistory } from "react-router-dom";
+import Header from "./headermain"
 
 function Map() {
     return (
         <div className="App">
-            
+            <Header/>
         </div>
     );
 }

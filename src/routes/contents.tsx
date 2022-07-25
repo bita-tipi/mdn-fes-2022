@@ -7,18 +7,19 @@ import contents2 from "../assets/img/contents_map.svg"
 import contents3 from "../assets/img/contents_event.svg"
 import './contents.css';
 import { Link, NavLink, useHistory } from "react-router-dom";
-
+import Header from "./headermain"
 
 
 function Contents() {
     return (
 
         <div>
+            <Header/>
             <header className="background_contents">
-            <Link to={`/tyui`}>
+            <Link to={"/tyui"}>
                     <img src={contents} className="contents_tyui"/>
                 </Link>
-            <Link to={`/map`}>
+            <Link to={"/headermain"}>
                     <img src={contents2} className="contents_map"/>
                 </Link>
                 <img src={contents3} className="contents_event"/>

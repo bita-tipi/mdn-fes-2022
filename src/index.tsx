@@ -5,7 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import { Route, BrowserRouter } from "react-router-dom";
 import Top from "./routes/top";
 import Contents from "./routes/contents";
-import Header from "./routes/header"
+import Header from "./routes/headermain"
 import Top_back from "./routes/top_back";
 import Tyui from "./routes/tyui";
 import Map from "./routes/map";
@@ -19,9 +19,11 @@ ReactDOM.render(
         <Route exact path="/contents" component={Contents} />
         <Route exact path="/top_back" component={Top_back} />
         <Route exact path="/tyui" component={Tyui} />
-        <Route exact path="/header" component={Header} />
+        <Route exact path="/headermain" component={Header} />
         <Route exact path="/map" component={Map} />
         <Route exact path="/stamp_rally" component={Stamp_rally} />
+
+      
       </div>
     </BrowserRouter>
   </React.StrictMode>,
