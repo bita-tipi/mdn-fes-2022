@@ -10,6 +10,7 @@ import Top_back from "./routes/top_back";
 import Tyui from "./routes/tyui";
 import Map from "./routes/map";
 import Stamp_rally from "./routes/stamp_rally";
+import List from "./routes/list";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,8 +23,8 @@ ReactDOM.render(
         <Route exact path="/headermain" component={Header} />
         <Route exact path="/map" component={Map} />
         <Route exact path="/stamp_rally" component={Stamp_rally} />
-
-      
+        <Route exact path="/list" component={List} />
+        
       </div>
     </BrowserRouter>
   </React.StrictMode>,

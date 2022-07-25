@@ -18,7 +18,7 @@ function Contents() {
             <Link to={"/tyui"}>
                     <img src={contents} className="contents_tyui"/>
                 </Link>
-            <Link to={"/headermain"}>
+            <Link to={"/map"}>
                     <img src={contents2} className="contents_map"/>
                 </Link>
                 <img src={contents3} className="contents_event"/>
