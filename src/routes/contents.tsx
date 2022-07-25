@@ -14,7 +14,6 @@ function Contents() {
     return (
 
         <div>
-            <Header/>
             <header className="background_contents">
             <Link to={"/tyui"}>
                     <img src={contents} className="contents_tyui"/>
@@ -25,6 +24,7 @@ function Contents() {
                 <img src={contents3} className="contents_event"/>
 
             </header>
+            <Header/>
         </div>
     );
 }
