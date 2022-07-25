@@ -1,7 +1,7 @@
 .background_tyui{
     background-color: rgb(187, 225, 231);
     min-height: 150vh;
-    min-width: 20vh;
+    min-width: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
