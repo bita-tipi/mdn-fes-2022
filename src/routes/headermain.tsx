@@ -3,6 +3,7 @@ import React from "react";
 import './header.css';
 import { Link, NavLink, useHistory } from "react-router-dom";
 import backbottun from "../assets/img/backbottun.png"
+import header_main from "../assets/img/header_main.png"
 
 export default function Header() {
     function handleClick() {
@@ -11,9 +12,8 @@ export default function Header() {
     let history = useHistory();
     return (
       <header className="header">
-        <div>
             <img src={backbottun} onClick={handleClick} className="back_button"/>
-        </div>
+            <img src={header_main} className="header_main"/>
       </header>
     )
   }
