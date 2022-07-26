@@ -9,11 +9,6 @@
   background-repeat: no-repeat;
   background-size: cover;
  }
- .top_link {
-  position: absolute;
-  transform: translate(-50%, -80%);
-  min-height: 8vh;
-}
 .contents_tyui{
   position: absolute;
     transform: translate(-50%,100%);
