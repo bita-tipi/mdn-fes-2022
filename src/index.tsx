@@ -24,7 +24,6 @@ ReactDOM.render(
         <Route exact path="/map" component={Map} />
         <Route exact path="/stamp_rally" component={Stamp_rally} />
         <Route exact path="/list" component={List} />
-        
       </div>
     </BrowserRouter>
   </React.StrictMode>,
