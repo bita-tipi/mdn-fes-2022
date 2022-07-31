@@ -11,43 +11,43 @@
  }
 .contents_tyui{
   position: absolute;
-    transform: translate(-50%,0%);
-    min-height: 10vh;
+    transform: translate(-50%,-130%);
+    min-height: 8vh;
     height: 8vh;
 }
 .contents_map{
   position: absolute;
-    transform: translate(-50%,-250%);
-    min-height: 10vh;
+    transform: translate(-50%,-370%);
+    min-height: 8vh;
     height: 8vh;
 }
 .contents_event{
   position: absolute;
-    transform: translate(0%,-400%);
+    transform: translate(0%,-580%);
     min-height: 5vh;
-    height: 8vh;
+    height: 6vh;
 }
 .contents_theme{
   position: absolute;
-  transform: translate(-50%,-125%);
-  min-height: 10vh;
+  transform: translate(-50%,-250%);
+  min-height: 8vh;
   height: 8vh;
 }
 .contents_zenya{
   position: absolute;
-  transform: translate(-50%,125%);
-  min-height: 10vh;
+  transform: translate(-50%,-10%);
+  min-height: 8vh;
   height: 8vh;
 }
 .contents_koutyou{
   position: absolute;
-  transform: translate(-50%,250%);
-  min-height: 10vh;
+  transform: translate(-50%,110%);
+  min-height: 8vh;
   height: 8vh;
 }
 .contents_stamp{
   position: absolute;
-  transform: translate(-50%,375%);
-  min-height: 10vh;
+  transform: translate(-50%,230%);
+  min-height: 8vh;
   height: 8vh;
 }

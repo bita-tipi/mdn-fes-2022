@@ -12,12 +12,12 @@ import { Link, NavLink, useHistory } from "react-router-dom";
 
 function Top_back() {
     return (
-        <div className="App">
+        <div>
             <header className="top_back">
                 <div>
                 <img src={under_center} className="top_center"/>
                 <Link to={`/contents`}>
-                    <img src={top_link} className="top_link"/>
+                    <img src={top_link}/>
                 </Link>
 
                 </div>
