@@ -35,7 +35,7 @@ function Contents() {
             <Link to={`/koutyou`}>
                     <img src={contents6} className="contents_koutyou"/>
                 </Link>
-            <Link to={`/stamp`}>
+            <Link to={`/stamp_rally`}>
                     <img src={contents7} className="contents_stamp"/>
                 </Link>
                 <img src={contents3} className="contents_event"/>
