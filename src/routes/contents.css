@@ -16,7 +16,7 @@
 }
 .contents_tyui{
   position: absolute;
-    transform: translate(-50%,100%);
+    transform: translate(-50%,0%);
     min-height: 10vh;
     height: 8vh;
 }
@@ -31,4 +31,28 @@
     transform: translate(0%,-400%);
     min-height: 5vh;
     height: 8vh;
+}
+.contents_theme{
+  position: absolute;
+  transform: translate(-50%,-125%);
+  min-height: 10vh;
+  height: 8vh;
+}
+.contents_zenya{
+  position: absolute;
+  transform: translate(-50%,125%);
+  min-height: 10vh;
+  height: 8vh;
+}
+.contents_koutyou{
+  position: absolute;
+  transform: translate(-50%,250%);
+  min-height: 10vh;
+  height: 8vh;
+}
+.contents_stamp{
+  position: absolute;
+  transform: translate(-50%,375%);
+  min-height: 10vh;
+  height: 8vh;
 }
