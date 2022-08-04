@@ -12,13 +12,17 @@
 .setumei{
     background-color:#eeeeee;
     height:40vh;
-    width:56vh;
+    width:200vh;
+    maxwidth:100%;
+    background-size: cover;
     min-width:46vh;
     position: absolute;
 	bottom: 0;
+    overflow: hidden;
 }
 .list{
     height:8vh;
     width:8vh;
     transform: translate(550%, -150%);
 }
+
