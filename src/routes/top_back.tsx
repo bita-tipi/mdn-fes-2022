@@ -15,9 +15,9 @@ function Top_back() {
         <div>
             <header className="top_back">
                 <div>
-                <img src={under_center} className="top_center"/>
+                <img src={under_center}className="under_center"/>
                 <Link to={`/contents`}>
-                    <img src={top_link}/>
+                    <img src={top_link}className="under_link"/>
                 </Link>
 
                 </div>

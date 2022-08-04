@@ -13,7 +13,6 @@ function Top() {
     return (
         <body className="top_container">
             <div>
-                <div className="top_container">
                     <img src={top_center} className="top_center"/>
                     <Link to={"/contents"} className="top_link">
                     <img src={top_link}/>
@@ -22,7 +21,6 @@ function Top() {
                         <img src={schedule} className="schedule"/>
                     </Link>
                     <img src={obi}  className="obi"/>
-                </div>
             </div>
         </body>
     );

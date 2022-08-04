@@ -10,10 +10,10 @@ function Map() {
     return (
         <div className="background_map">
             <Header/>
-            <div className="setumei">
             <Link to={"/list"}>
             <img src={map_list} className="list"/>
             </Link>
+            <div className="setumei">
 
             </div>
         </div>

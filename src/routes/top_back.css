@@ -4,6 +4,7 @@
 
 .top_back {
   min-height: 100vh;
+  height:10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,6 +14,12 @@
   background-image: url("/src/assets/img/under_back.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 38% 50%;
-
+  background-position: 41% 50%;
+}
+.under_center{
+height:60vh;
+min-height:50vh;
+}
+.under_link{
+  transform: translate(0%,-380%);
 }

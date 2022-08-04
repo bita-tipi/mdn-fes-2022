@@ -11,9 +11,9 @@
    }
 .setumei{
     background-color:#eeeeee;
-    height:40vh;
+    height:35vh;
     width:200vh;
-    maxwidth:100%;
+    max-width:100%;
     background-size: cover;
     min-width:46vh;
     position: absolute;
@@ -23,6 +23,6 @@
 .list{
     height:8vh;
     width:8vh;
-    transform: translate(550%, -150%);
+    transform: translate(250%, 120%);
 }
 
