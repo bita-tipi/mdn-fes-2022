@@ -13,6 +13,7 @@ import Stamp_rally from "./routes/stamp_rally";
 import List from "./routes/list";
 import Koutyou from "./routes/koutyou";
 import Theme from "./routes/theme";
+import zenya from "./routes/zenya";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -28,6 +29,7 @@ ReactDOM.render(
         <Route exact path="/list" component={List} />
         <Route exact path="/koutyou" component={Koutyou} />
         <Route exact path="/theme" component={Theme} />
+        <Route exact path="/zenya" component={zenya} />
       </div>
     </BrowserRouter>
   </React.StrictMode>,

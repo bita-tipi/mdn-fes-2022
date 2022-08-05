@@ -38,7 +38,7 @@
   height: 4vh;
   max-width: 100%;
   position: absolute;
-  bottom:20%;
+  bottom:10%;
   transform: translate(-100%, 0%);
   overflow: hidden;
 }
@@ -52,7 +52,7 @@
 
 .bottom_moji{
   height:6vh;
-  bottom:20%;
+  bottom:10%;
   position: absolute;
   transform: translate(-180%, 0%);
 }

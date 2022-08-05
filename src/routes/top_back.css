@@ -4,22 +4,51 @@
 
 .top_back {
   min-height: 100vh;
-  height:10vh;
+  height:100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-image: url("/src/assets/img/under_back.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 41% 50%;
+  background-image: url("/src/assets/img/under_back.svg");
 }
 .under_center{
 height:60vh;
 min-height:50vh;
+transform: translate(-50%,-50%);
+position: absolute;
 }
 .under_link{
-  transform: translate(0%,-380%);
+  transform: translate(-50%,-120%);
+  width:40vh;
+  position: absolute;
+}
+.hata{
+  height:40vh;
+  width:15vh;
+  transform: translate(40%,-25%);
+  position: absolute;
+}
+.under_moji{
+ width:40vh; 
+ transform: translate(-55%,-475%);
+ position: absolute;
+}
+.under_bottom_moji{
+  width:30vh; 
+  transform: translate(-75%,0%);
+  position: absolute;
+  bottom:10%;
+}
+.under_obi{
+  height: 4vh;
+  max-width: 100%;
+  position: absolute;
+  bottom:10%;
+  transform: translate(20%, 0%);
+  overflow: hidden;
 }
