@@ -1,6 +1,6 @@
 .top_container {
   background-image: url("/src/assets/img/top_back.svg");
-  min-height: 100vh;
+  min-height: 110vh;
   height:100vh;
   display: flex;
   flex-direction: column;
@@ -26,8 +26,8 @@
 }
 
 .top_link {
-  height:40vh;
-  transform: translate(-115%, 50%);
+  height:8vh;
+  transform: translate(-115%, 250%);
   position: absolute;
   width:40vh;
 }
@@ -38,6 +38,21 @@
   height: 4vh;
   max-width: 100%;
   position: absolute;
-  bottom:0;
-  right:0;
+  bottom:20%;
+  transform: translate(-100%, 0%);
+  overflow: hidden;
+}
+
+.top_moji{
+  height:8vh;
+  top:20%;
+  position: absolute;
+  transform: translate(-140%, 0%);
+}
+
+.bottom_moji{
+  height:6vh;
+  bottom:20%;
+  position: absolute;
+  transform: translate(-180%, 0%);
 }

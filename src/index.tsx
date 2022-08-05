@@ -11,6 +11,8 @@ import Tyui from "./routes/tyui";
 import Map from "./routes/map";
 import Stamp_rally from "./routes/stamp_rally";
 import List from "./routes/list";
+import Koutyou from "./routes/koutyou";
+import Theme from "./routes/theme";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -24,6 +26,8 @@ ReactDOM.render(
         <Route exact path="/map" component={Map} />
         <Route exact path="/stamp_rally" component={Stamp_rally} />
         <Route exact path="/list" component={List} />
+        <Route exact path="/koutyou" component={Koutyou} />
+        <Route exact path="/theme" component={Theme} />
       </div>
     </BrowserRouter>
   </React.StrictMode>,

@@ -1,11 +1,11 @@
 import { url } from "inspector";
 import React from "react";
-import './stamp_rally.css';
-import { Link, NavLink, useHistory } from "react-router-dom";
 import Header from "./headermain"
+import "./koutyou.css"
+import { Link, NavLink, useHistory } from "react-router-dom"
 
 
-function Stamp_rally() {
+function Koutyou() {
     return (
         <body className="top_container">
             <Header/>
@@ -16,5 +16,4 @@ function Stamp_rally() {
     );
 }
 
-
-export default Stamp_rally;
+export default Koutyou;
