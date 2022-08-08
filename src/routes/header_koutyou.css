@@ -1,0 +1,27 @@
+
+.header_koutyou{
+    min-height: 60px;
+    width: 100%;
+    height: 70px;
+    background: #EBEBD4;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    display: flex; /* flexboxを作る */
+    align-items: center; /* 上下中央に揃える */
+    justify-content: space-between; /* 両端に配置 */
+    top: 0;
+    position: fixed;
+    display: inline-block;
+    text-align: center;
+    align-items:center; 
+    min-height:10%;
+}
+.back_button_koutyou{
+    width:4vh;
+    transform: translate(-150%, 30%);
+}
+.header_main_koutyou{
+    width:30vh;
+    transform: translate(-8%, 30%);
+}
