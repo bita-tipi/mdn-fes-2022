@@ -1,0 +1,60 @@
+.background_contents{
+    background-color: rgb(187, 225, 231);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+.stamp_back{
+    position: absolute;
+      transform: translate(-50%,-180%);
+      min-height: 8vh;
+      height: 20vh;
+  }
+  .stamp_back2{
+    position: absolute;
+      transform: translate(-50%,-70%);
+      min-height: 8vh;
+      height: 20vh;
+  }
+  .stamp_back3{
+    position: absolute;
+      transform: translate(-50%,40%);
+      min-height: 8vh;
+      height: 20vh;
+  }
+.stamp_camera{
+    position: absolute;
+    transform: translate(270%,350%);
+    min-height: 8vh;
+    height: 9vh;
+}
+.stamp1{
+    position: absolute;
+    transform: translate(40%,-233%);
+    min-height: 8vh;
+    height: 13vh;
+}
+.stamp2{
+    position: absolute;
+    transform: translate(-150%,-210%);
+    min-height: 8vh;
+    height: 15vh;
+}
+.stamp3{
+    position: absolute;
+    transform: translate(-50%,-60%);
+    min-height: 8vh;
+    height: 15vh;
+}
+.stamp4{
+    position: absolute;
+    transform: translate(65%,-65%);
+    min-height: 8vh;
+    height: 14.5vh;
+}
