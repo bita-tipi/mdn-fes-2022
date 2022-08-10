@@ -1,0 +1,21 @@
+.syasin{
+    width:50vh;
+    height:37vh;
+    transform: translate(0%,-50%);
+}
+.setumei{
+    width:45vh;
+    height:30vh;
+    transform: translate(-105%,-40%);
+}
+.background_koutyou{
+    background-color: #8DC2BB;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }

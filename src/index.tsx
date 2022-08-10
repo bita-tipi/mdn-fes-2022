@@ -5,7 +5,8 @@ import reportWebVitals from "./reportWebVitals";
 import { Route, BrowserRouter } from "react-router-dom";
 import Top from "./routes/top";
 import Contents from "./routes/contents";
-import Header from "./routes/headermain"
+import Header from "./routes/headermain";
+import Header_koutyou from "./routes/headermain_koutyou";
 import Top_back from "./routes/top_back";
 import Tyui from "./routes/tyui";
 import Map from "./routes/map";
@@ -24,6 +25,7 @@ ReactDOM.render(
         <Route exact path="/top_back" component={Top_back} />
         <Route exact path="/tyui" component={Tyui} />
         <Route exact path="/headermain" component={Header} />
+        <Route exact path="/headermain_koutyou" component={Header_koutyou} />
         <Route exact path="/map" component={Map} />
         <Route exact path="/stamp_rally" component={Stamp_rally} />
         <Route exact path="/list" component={List} />
