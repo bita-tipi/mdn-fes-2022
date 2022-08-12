@@ -15,7 +15,7 @@ function Koutyou() {
             <Header_koutyou/>
             <div>
             <img src={syasin} className="syasin"/>
-            <img src={setumei} className="setumei"/>
+            <img src={setumei} className="koutyousetumei"/>
             </div>
         </body>
     );

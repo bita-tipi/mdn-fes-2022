@@ -13,9 +13,7 @@ function Map() {
             <Link to={"/list"}>
             <img src={map_list} className="list"/>
             </Link>
-            <div className="setumei">
-
-            </div>
+            <div className="setumei"></div>
         </div>
     );
 }
