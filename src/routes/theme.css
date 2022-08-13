@@ -1,0 +1,23 @@
+.main{
+    width:40vh;
+    transform: translate(0%,-30%);
+}
+.midasi{
+    width:40vh;
+    transform: translate(100%,-200%);
+}
+.MV{
+    width:40vh;
+    transform: translate(-100%,100%);
+}
+.background_theme{
+    background-color: rgb(187, 225, 231);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
