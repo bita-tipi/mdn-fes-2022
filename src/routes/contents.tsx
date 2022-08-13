@@ -38,6 +38,9 @@ function Contents() {
             <Link to={`/stamp_rally`}>
                     <img src={contents7} className="contents_stamp"/>
                 </Link>
+            <Link to={`/schedule`}>
+                <img src={contents7} className="contents_schedule"/>
+            </Link>
                 <img src={contents3} className="contents_event"/>
 
             </header>

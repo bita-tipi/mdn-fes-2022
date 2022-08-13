@@ -51,3 +51,9 @@
   min-height: 8vh;
   height: 8vh;
 }
+.contents_schedule{
+  position: absolute;
+  transform: translate(-50%,350%);
+  min-height: 8vh;
+  height: 8vh;
+}

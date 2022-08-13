@@ -1,14 +1,20 @@
 .main{
-    width:40vh;
-    transform: translate(0%,-30%);
+    position: absolute;
+      transform: translate(-50%,-60%);
+      min-height: 8vh;
+      height: 28vh;
 }
 .midasi{
-    width:40vh;
-    transform: translate(100%,-200%);
+    position: absolute;
+      transform: translate(-50%,-180%);
+      min-height: 8vh;
+      height: 20vh;
 }
 .MV{
-    width:40vh;
-    transform: translate(-100%,100%);
+    position: absolute;
+      transform: translate(-50%,50%);
+      min-height: 8vh;
+      height: 30vh;
 }
 .background_theme{
     background-color: rgb(187, 225, 231);

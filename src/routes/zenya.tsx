@@ -8,10 +8,10 @@ import { Link, NavLink, useHistory } from "react-router-dom"
 function Zenya() {
     return (
         <body className="top_container">
-            <Header/>
             <div>
 
             </div>
+            <Header/>
         </body>
     );
 }

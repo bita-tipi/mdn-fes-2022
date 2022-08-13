@@ -12,11 +12,11 @@ import Header_koutyou from "./headermain_koutyou";
 function Koutyou() {
     return (
         <body className="background_koutyou">
-            <Header_koutyou/>
             <div>
             <img src={syasin} className="syasin"/>
             <img src={setumei} className="koutyousetumei"/>
             </div>
+            <Header_koutyou/>
         </body>
     );
 }

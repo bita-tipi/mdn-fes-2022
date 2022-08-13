@@ -9,11 +9,11 @@ import Header from "./headermain"
 function Map() {
     return (
         <div className="background_map">
-            <Header/>
             <Link to={"/list"}>
             <img src={map_list} className="list"/>
             </Link>
             <div className="setumei"></div>
+            <Header/>
         </div>
     );
 }

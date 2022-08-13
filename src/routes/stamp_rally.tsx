@@ -16,7 +16,6 @@ import Header from "./headermain"
 function Stamp_rally() {
     return (
         <body className="background_contents">
-            <Header/>
             <div>
             <img src={stamp_back} className="stamp_back"/>
             <img src={stamp_back2} className="stamp_back2"/>
@@ -28,6 +27,7 @@ function Stamp_rally() {
             <img src={stamp4} className="stamp4"/>
             
             </div>
+            <Header/>
         </body>
     );
 }

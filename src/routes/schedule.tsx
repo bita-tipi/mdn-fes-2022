@@ -1,13 +1,13 @@
 import { url } from "inspector";
 import React from "react";
 import Header from "./headermain"
-import "./list.css"
+import "./schedule.css"
 import { Link, NavLink, useHistory } from "react-router-dom"
 
 
-function List() {
+function Schedule() {
     return (
-        <body className="top_container">
+        <body className="background_schedule">
             <div>
 
             </div>
@@ -16,4 +16,4 @@ function List() {
     );
 }
 
-export default List;
+export default Schedule;
