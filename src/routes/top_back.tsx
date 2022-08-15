@@ -11,6 +11,7 @@ import { Link, NavLink, useHistory } from "react-router-dom";
 import under_moji from "../assets/img/under_moji.svg"
 import under_bottom_moji from "../assets/img/under_bottom_moji.svg"
 import under_obi from "../assets/img/under_obi.svg"
+import schedule from "../assets/img/schedule.svg"
 
 function Top_back() {
     return (
@@ -25,6 +26,9 @@ function Top_back() {
                 <img src={under_bottom_moji}className="under_bottom_moji"/>
                 <img src={hata}className="hata"/>
                 <img src={under_obi}className="under_obi"/>
+                <Link to={"/"}>
+                        <img src={schedule} className="back_schedule"/>
+                    </Link>
                 </div>
                 
             </header>

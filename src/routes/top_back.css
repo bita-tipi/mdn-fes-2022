@@ -52,3 +52,8 @@ position: absolute;
   transform: translate(20%, 0%);
   overflow: hidden;
 }
+.back_schedule {
+  height: 9vh;
+  position: absolute;
+  transform: translate(100%, -240%);
+}

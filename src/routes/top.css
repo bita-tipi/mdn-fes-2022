@@ -1,6 +1,6 @@
 .top_container {
   background-image: url("/src/assets/img/top_back.svg");
-  min-height: 110vh;
+  min-height: 100vh;
   height:100vh;
   display: flex;
   flex-direction: column;
