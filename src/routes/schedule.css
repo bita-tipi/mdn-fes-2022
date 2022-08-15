@@ -1,6 +1,7 @@
 .background_schedule{
     background-color: rgb(187, 225, 231);
     min-height: 100vh;
+    height:400vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,4 +9,21 @@
     font-size: calc(10px + 2vmin);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.main_bar{
+    height:350vh;
+    transform: translate(37%,1%);
+}
+.side_bar{
+    height:150vh;
+    transform: translate(87%,-141%);
+}
+.time_bar{
+    height:365vh;
+    transform: translate(-4300%,1%);
+}
+.time{
+    height:350vh;
+    transform: translate(-450%,-3%);
 }
