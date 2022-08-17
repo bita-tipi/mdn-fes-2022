@@ -3,10 +3,10 @@ import React from "react";
 import Header from "./headermain"
 import "./schedule.css"
 import { Link, NavLink, useHistory } from "react-router-dom"
-import main_bar from "../assets/img/main_bar.png"
-import side_bar from "../assets/img/side_bar.png"
+import main_bar from "../assets/img/main_bar.svg"
+import side_bar from "../assets/img/side_bar.svg"
 import time_bar from "../assets/img/time_bar.svg"
-import time from "../assets/img/time.png"
+import time from "../assets/img/time.svg"
 
 function Schedule() {
     return (
