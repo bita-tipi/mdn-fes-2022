@@ -1,14 +1,14 @@
 .main{
     position: absolute;
-      transform: translate(-50%,-60%);
+      transform: translate(-50%,-70%);
       min-height: 8vh;
       height: 28vh;
 }
 .midasi{
     position: absolute;
-      transform: translate(-50%,-180%);
+      transform: translate(-50%,-280%);
       min-height: 8vh;
-      height: 20vh;
+      height: 13vh;
 }
 .MV{
     position: absolute;

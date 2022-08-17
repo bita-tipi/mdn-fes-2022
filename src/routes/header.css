@@ -26,3 +26,7 @@
     width:30vh;
     transform: translate(-8%, 30%);
 }
+.menu{
+    height:5vh;
+    transform: translate(10%, 30%)
+}
