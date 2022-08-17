@@ -27,6 +27,21 @@
 .list{
     height:8vh;
     width:8vh;
-    transform: translate(270%,300%);
+    transform: translate(600%,300%);
 }
-
+.map_1{
+    height:4vh;
+    transform: translate(-20%,-300%);
+}
+.map_2{
+    height:4vh;
+    transform: translate(-10%,-300%);
+}
+.map_3{
+    height:4vh;
+    transform: translate(0%,-300%);
+}
+.map_4{
+    height:4vh;
+    transform: translate(10%,-300%);
+}
