@@ -16,33 +16,37 @@ import b_4 from "../assets/img/map_4_b.svg"
 
 
 function Map() {
-    const [G1] = useState(true);
-    const [G3] = useState(false);
-    const [G2] = useState(false);
-    const [G4] = useState(false);
+    let [G1] = useState(1);
+    let [G3] = useState(0);
+    let [G2] = useState(0);
+    let [G4] = useState(0);
     function s_1(){
-        const G1=true;
-        const G2=false;
-        const G3=false;
-        const G4=false;
+        let G1=1;
+        let G2=0;
+        let G3=0;
+        let G4=0;
+        alert("a")
     }
     function s_2(){
-        const G1=false;
-        const G2=true;
-        const G3=false;
-        const G4=false;
+        let G1=0;
+        let G2=1;
+        let G3=0;
+        let G4=0;
+        alert("a")
     }
     function s_3(){
-        const G1=false;
-        const G2=false;
-        const G3=true;
-        const G4=false;
+        let G1=0;
+        let G2=0;
+        let G3=1;
+        let G4=0;
+        alert("a")
     }
     function s_4(){
-        const G1=false;
-        const G2=false;
-        const G3=false;
-        const G4=true;
+        let G1=0;
+        let G2=0;
+        let G3=0;
+        let G4=1;
+        
     }
     return (
         <div className="background_map">
