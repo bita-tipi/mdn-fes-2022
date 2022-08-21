@@ -1,17 +1,17 @@
 import React from "react";
 import { useState } from "react";
-import map_list from "../assets/img/map_list.svg";
+import map_list from "../../assets/img/map_list.svg";
 import "./map.css";
 import { Link } from "react-router-dom";
-import Header from "./headermain";
-import b_1 from "../assets/img/map_1_b.svg";
-import y_1 from "../assets/img/map_1_y.svg";
-import y_2 from "../assets/img/map_2_y.svg";
-import b_2 from "../assets/img/map_2_b.svg";
-import y_3 from "../assets/img/map_3_y.svg";
-import b_3 from "../assets/img/map_3_b.svg";
-import y_4 from "../assets/img/map_4_y.svg";
-import b_4 from "../assets/img/map_4_b.svg";
+import Header from "../header/headermain";
+import b_1 from "../../assets/img/map_1_b.svg";
+import y_1 from "../../assets/img/map_1_y.svg";
+import y_2 from "../../assets/img/map_2_y.svg";
+import b_2 from "../../assets/img/map_2_b.svg";
+import y_3 from "../../assets/img/map_3_y.svg";
+import b_3 from "../../assets/img/map_3_b.svg";
+import y_4 from "../../assets/img/map_4_y.svg";
+import b_4 from "../../assets/img/map_4_b.svg";
 
 function Map() {
     let [G1] = useState(1);
