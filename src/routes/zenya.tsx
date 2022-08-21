@@ -1,17 +1,12 @@
-import { url } from "inspector";
 import React from "react";
-import Header from "./headermain"
-import "./zenya.css"
-import { Link, NavLink, useHistory } from "react-router-dom"
-
+import Header from "./headermain";
+import "./zenya.css";
 
 function Zenya() {
     return (
         <body className="top_container">
-            <div>
-
-            </div>
-            <Header/>
+            <div></div>
+            <Header />
         </body>
     );
 }

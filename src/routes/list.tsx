@@ -1,18 +1,12 @@
-import { url } from "inspector";
 import React from "react";
-import Header from "./headermain"
-import "./list.css"
-import { Link, NavLink, useHistory } from "react-router-dom"
-
+import Header from "./headermain";
+import "./list.css";
 
 function List() {
-    
     return (
         <body className="top_container">
-            <div>
-
-            </div>
-            <Header/>
+            <div></div>
+            <Header />
         </body>
     );
 }
