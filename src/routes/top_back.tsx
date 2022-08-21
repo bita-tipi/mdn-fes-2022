@@ -7,7 +7,7 @@ import under_back from "../assets/img/under_back.svg"
 import under_center from "../assets/img/under_center.svg"
 import hata from "../assets/img/hata.svg"
 import './top_back.css';
-import { Link, NavLink, useHistory } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import under_moji from "../assets/img/under_moji.svg"
 import under_bottom_moji from "../assets/img/under_bottom_moji.svg"
 import under_obi from "../assets/img/under_obi.svg"
