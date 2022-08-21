@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "./headermain";
-import "./list.css";
+import Header from "../header/headermain";
+import "./zenya.css";
 
-function List() {
+function Zenya() {
     return (
         <body className="top_container">
             <div></div>
@@ -11,4 +11,4 @@ function List() {
     );
 }
 
-export default List;
+export default Zenya;

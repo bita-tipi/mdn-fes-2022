@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./headermain";
+import Header from "../header/headermain";
 import "./theme.css";
-import main from "../assets/img/theme_main.svg";
-import midasi from "../assets/img/theme_midasi.svg";
-import MV from "../assets/img/theme_MV.svg";
+import main from "../../assets/img/theme_main.svg";
+import midasi from "../../assets/img/theme_midasi.svg";
+import MV from "../../assets/img/theme_MV.svg";
 
 function Theme() {
     return (

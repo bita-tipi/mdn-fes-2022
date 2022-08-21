@@ -1,4 +1,4 @@
-.background_map{
+.background_map {
     background-color: rgb(187, 225, 231);
     min-height: 100vh;
     display: flex;
@@ -8,12 +8,12 @@
     font-size: calc(10px + 2vmin);
     background-repeat: no-repeat;
     background-size: cover;
-   }
-.setumei{
+}
+.setumei {
     background-color: #eeeeee;
     min-height: 40vh;
-    height:40vh;
-    width:60vh;
+    height: 40vh;
+    width: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,27 +21,32 @@
     font-size: calc(10px + 2vmin);
     background-repeat: no-repeat;
     background-size: cover;
-    transform: translate(0%,70%);
+    transform: translate(0%, 70%);
     overflow: hidden;
 }
-.list{
-    height:8vh;
-    width:8vh;
-    transform: translate(600%,300%);
+.list {
+    height: 8vh;
+    width: 8vh;
+    transform: translate(600%, 300%);
 }
-.map_1{
-    height:4vh;
-    transform: translate(-160%,110%);
+
+.floor_selector {
+    cursor: pointer;
 }
-.map_2{
-    height:4vh;
-    transform: translate(-40%,-10%);
+
+.f1 {
+    height: 4vh;
+    transform: translate(-160%, 110%);
 }
-.map_3{
-    height:4vh;
-    transform: translate(80%,-130%);
+.f2 {
+    height: 4vh;
+    transform: translate(-40%, -10%);
 }
-.map_4{
-    height:4vh;
-    transform: translate(200%,-250%);
+.f3 {
+    height: 4vh;
+    transform: translate(80%, -130%);
+}
+.f4 {
+    height: 4vh;
+    transform: translate(200%, -250%);
 }

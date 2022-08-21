@@ -1,14 +1,14 @@
 import React from "react";
-import stamp_back from "../assets/img/stamp_rally.back1.svg";
-import stamp_back2 from "../assets/img/stamp_rally.back2.svg";
-import stamp_back3 from "../assets/img/stamp_rally.back1.svg";
-import stamp_camera from "../assets/img/stamp_camera.svg";
-import stamp1 from "../assets/img/stamp1.svg";
-import stamp2 from "../assets/img/stamp2.svg";
-import stamp3 from "../assets/img/stamp3.svg";
-import stamp4 from "../assets/img/stamp4.svg";
+import stamp_back from "../../assets/img/stamp_rally.back1.svg";
+import stamp_back2 from "../../assets/img/stamp_rally.back2.svg";
+import stamp_back3 from "../../assets/img/stamp_rally.back1.svg";
+import stamp_camera from "../../assets/img/stamp_camera.svg";
+import stamp1 from "../../assets/img/stamp1.svg";
+import stamp2 from "../../assets/img/stamp2.svg";
+import stamp3 from "../../assets/img/stamp3.svg";
+import stamp4 from "../../assets/img/stamp4.svg";
 import "./stamp_rally.css";
-import Header from "./headermain";
+import Header from "../header/headermain";
 
 function Stamp_rally() {
     return (

@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "./headermain";
+import Header from "../header/headermain";
 import "./schedule.css";
-import main_bar from "../assets/img/main_bar.svg";
-import side_bar from "../assets/img/side_bar.svg";
-import time_bar from "../assets/img/time_bar.svg";
-import time from "../assets/img/time.svg";
+import main_bar from "../../assets/img/main_bar.svg";
+import side_bar from "../../assets/img/side_bar.svg";
+import time_bar from "../../assets/img/time_bar.svg";
+import time from "../../assets/img/time.svg";
 
 function Schedule() {
     return (

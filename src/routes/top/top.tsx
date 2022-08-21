@@ -1,9 +1,9 @@
-import top_center from "../assets/img/top_center.svg";
-import top_link from "../assets/img/top_link.svg";
-import schedule from "../assets/img/schedule.svg";
-import obi from "../assets/img/2022.svg";
-import top_moji from "../assets/img/top_moji.svg";
-import bottom_moji from "../assets/img/bottom_moji.svg";
+import top_center from "../../assets/img/top_center.svg";
+import top_link from "../../assets/img/top_link.svg";
+import schedule from "../../assets/img/schedule.svg";
+import obi from "../../assets/img/2022.svg";
+import top_moji from "../../assets/img/top_moji.svg";
+import bottom_moji from "../../assets/img/bottom_moji.svg";
 import "./top.css";
 import { Link } from "react-router-dom";
 
