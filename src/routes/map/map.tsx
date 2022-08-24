@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import map_list from "../../assets/img/map_list.svg";
 import "./map.css";
-import { Link } from "react-router-dom";
+import { Link, useLinkClickHandler } from "react-router-dom";
 import Header from "../header/headermain";
 import f1_none from "../../assets/img/map_1_b.svg";
 import f1_hovered from "../../assets/img/map_1_y.svg";
@@ -12,15 +12,24 @@ import f3_none from "../../assets/img/map_3_b.svg";
 import f3_hovered from "../../assets/img/map_3_y.svg";
 import f4_none from "../../assets/img/map_4_b.svg";
 import f4_hovered from "../../assets/img/map_4_y.svg";
-import "./fi.tsx";
+import F1Map from "./maps/f1";
+import F2Map from "./maps/f2";
+import F3Map from "./maps/f3";
+import F4Map from "./maps/f4";
 
 const selectorStruct = [
     [f1_none, f2_none, f3_none, f4_none],
     [f1_hovered, f2_hovered, f3_hovered, f4_hovered],
 ];
 
+const floorMaps = [F1Map(),F2Map(),F3Map,F4Map()];
+
 function Map() {
-    const [currentFloorIndex, updateFloorIndex] = useState(0);
+    const [currentFloorIndex, updateFloorIndex] = useState(initialState: 0);
+
+    function clickHandler(index:number){
+        updateFloorIndex(value:index)
+    }
 
     function floorSelector() {
         let selector = [];
@@ -30,7 +39,7 @@ function Map() {
                 <div>
                     <img
                         src={selectorStruct[Number(isSelected)][index]}
-                        onClick={() => updateFloorIndex(index)}
+                        onClick={() => clickHandler(index)}
                         className={"floor_selector f" + (index + 1)}
                         alt=""
                     />
@@ -44,6 +53,9 @@ function Map() {
         <div className="background_map">
             <div>{floorSelector()}</div>
             <p>いまは{currentFloorIndex + 1}F を選択してるよ</p>
+            <div>
+                {floorMaps[currentFloorIndex]}
+            </div>
             <div>
                 <Link to={"/list"}>
                     <img src={map_list} className="list" />
