@@ -12,6 +12,7 @@ import f3_none from "../../assets/img/map_3_b.svg";
 import f3_hovered from "../../assets/img/map_3_y.svg";
 import f4_none from "../../assets/img/map_4_b.svg";
 import f4_hovered from "../../assets/img/map_4_y.svg";
+import "./map1f.tsx";
 
 const selectorStruct = [
     [f1_none, f2_none, f3_none, f4_none],
