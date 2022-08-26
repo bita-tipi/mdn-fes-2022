@@ -2,6 +2,7 @@
     background-color: rgb(187, 225, 231);
     min-height: 100vh;
     display: flex;
+    width:100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -12,8 +13,8 @@
 .setumei {
     background-color: #eeeeee;
     min-height: 40vh;
-    height: 40vh;
-    width: 60vh;
+    height: 45vh;
+    width:80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,13 +22,13 @@
     font-size: calc(10px + 2vmin);
     background-repeat: no-repeat;
     background-size: cover;
-    transform: translate(0%, 70%);
+    transform: translate(0%, 20%);
     overflow: hidden;
 }
 .list {
     height: 8vh;
     width: 8vh;
-    transform: translate(600%, 300%);
+    transform: translate(450%, 80%);
 }
 
 .floor_selector {
@@ -36,17 +37,23 @@
 
 .f1 {
     height: 4vh;
-    transform: translate(-160%, 110%);
+    transform: translate(-160%, 500%);
 }
 .f2 {
     height: 4vh;
-    transform: translate(-50%, -10%);
+    transform: translate(-50%, 380%);
 }
 .f3 {
     height: 4vh;
-    transform: translate(60%, -130%);
+    transform: translate(60%, 260%);
 }
 .f4 {
     height: 4vh;
-    transform: translate(170%, -250%);
+    transform: translate(170%, 140%);
+}
+.map_main{
+    transform: translate(0%, 20%);
+}.info{
+    height:28vh;
+    transform: translate(0%,-115%);
 }

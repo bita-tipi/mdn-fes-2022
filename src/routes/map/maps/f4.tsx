@@ -1,10 +1,11 @@
-import React from "react";
-import { useState } from "react";
-import map_list from "../../assets/img/map_list.svg";
-import "./map.css";
-import { Link } from "react-router-dom";
 
-function Map4F() {
-    <p>1F</p>
+
+export default function F4Map() {
+    return (
+        <div>
+           <p>j2b</p>
+           <p>ぽちかた</p>
+           <p>これは説明でありさんぷるであります</p>
+        </div>
+    );
 }
-export default Map4F;

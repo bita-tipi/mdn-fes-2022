@@ -1,11 +1,12 @@
-import React from "react";
-import { useState } from "react";
-import map_list from "../../assets/img/map_list.svg";
-import "./map.css";
-import { Link } from "react-router-dom";
+import { CLASS_DATA, F } from "../../../assets/data/constants";
+import MapInfoModal from "../modal";
 
 
-function Map1F() {
-    <p>1F</p>
+export default function F1Map() {
+
+    return (
+        <div>
+            {MapInfoModal( F[4], CLASS_DATA.GRADE2.J2B )}
+        </div>
+    );
 }
-export default Map1F;
