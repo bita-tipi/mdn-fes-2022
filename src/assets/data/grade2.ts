@@ -86,8 +86,8 @@ const T2C: classDataType = {
 
 const J2A: classDataType = {
     className: "J2A",
-    title: "",
-    description: "",
+    title: "縁日かも～",
+    description: "いろんな屋台があるよん",
 } as const;
 
 const J2B: classDataType = {

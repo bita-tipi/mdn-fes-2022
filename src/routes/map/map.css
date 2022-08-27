@@ -57,3 +57,19 @@
     height:28vh;
     transform: translate(0%,-115%);
 }
+.description{
+    height:10vh;
+    transform: translate(0%,0%);
+}
+.title_map{
+    height:10vh;
+    transform: translate(0%,0%);
+}
+.className{
+    height:10vh;
+    transform: translate(0%,0%);
+}
+.floor{
+    height:10vh;
+    transform: translate(0%,0%);
+}
