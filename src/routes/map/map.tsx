@@ -53,7 +53,6 @@ function Map() {
 
     return (
         <div className="background_map">
-            <div>{floorSelector()}</div>
 
             <div className="map_main">{floorMaps[currentFloorIndex]}</div>
 
@@ -64,6 +63,7 @@ function Map() {
             </div>
                 <div className="setumei"></div>
                 <div><img src={map_info} className="info" /></div>
+            <div>{floorSelector()}</div>
             <Header />
         </div>
     );
