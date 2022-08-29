@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/sgb5xrt.css");
 .background_map {
     background-color: rgb(187, 225, 231);
     min-height: 100vh;
@@ -22,13 +23,13 @@
     font-size: calc(10px + 2vmin);
     background-repeat: no-repeat;
     background-size: cover;
-    transform: translate(0%, 20%);
+    transform: translate(0%, 125%);
     overflow: hidden;
 }
 .list {
     height: 8vh;
     width: 8vh;
-    transform: translate(450%, 80%);
+    transform: translate(750%, 700%);
 }
 
 .floor_selector {
@@ -37,39 +38,87 @@
 
 .f1 {
     height: 4vh;
-    transform: translate(-160%, 500%);
+    transform: translate(-160%, -2700%);
 }
 .f2 {
     height: 4vh;
-    transform: translate(-50%, 380%);
+    transform: translate(-50%, -2820%);
 }
 .f3 {
     height: 4vh;
-    transform: translate(60%, 260%);
+    transform: translate(60%, -2940%);
 }
 .f4 {
     height: 4vh;
-    transform: translate(170%, 140%);
+    transform: translate(170%, -3060%);
 }
 .map_main{
-    transform: translate(0%, 20%);
+    transform: translate(0%, -200%);
+    height:40vh;
 }.info{
     height:28vh;
-    transform: translate(0%,-115%);
+    transform: translate(0%,50%);
 }
 .description{
     height:10vh;
-    transform: translate(0%,0%);
+    transform: translate(8%,10%);
+    font-family: vdl-logojrblack, sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 .title_map{
     height:10vh;
-    transform: translate(0%,0%);
+    transform: translate(8%,25%);
+    font-size: 4vh;
+    font-family: vdl-logojrblack, sans-serif;
+font-weight: 900;
+font-style: normal;
 }
 .className{
     height:10vh;
-    transform: translate(0%,0%);
+    transform: translate(12%,90%);
+    font-size: 5vh;
+    font-family: vdl-logojrblack, sans-serif;
+font-weight: 900;
+font-style: normal;
 }
 .floor{
     height:10vh;
-    transform: translate(0%,0%);
+    transform: translate(65%,325%);
+    font-size: 7vh;
+    font-family: vdl-logojrblack, sans-serif;
+font-weight: 900;
+font-style: normal;
 }
+.description_F2{
+    height:10vh;
+    transform: translate(0%,10%);
+    font-family: vdl-logojrblack, sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+.title_map_F2{
+    height:10vh;
+    transform: translate(0%,25%);
+    font-size: 4vh;
+    font-family: vdl-logojrblack, sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+.className_F2{
+    height:10vh;
+    transform: translate(5%,90%);
+    font-size: 5vh;
+    font-family: vdl-logojrblack, sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+.floor_F2{
+    height:10vh;
+    transform: translate(68%,325%);
+    font-size: 7vh;
+    font-family: vdl-logojrblack, sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+

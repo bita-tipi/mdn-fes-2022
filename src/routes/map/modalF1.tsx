@@ -1,6 +1,12 @@
 import { classDataType, F } from "../../assets/data/constants";
 import "./map.css";
 
+<html>
+    <head>
+    <script>
+    </script>
+    </head>
+</html>
 
 export default function MapInfoModal(
     selectedFloor: F,

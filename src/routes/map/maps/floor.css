@@ -2,3 +2,7 @@
     height:10vh;
     transform: translate(0%,0%);
 }
+.MAP{
+    height:30vh;
+    transform: translate(0%,70%)
+}
