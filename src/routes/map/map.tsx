@@ -62,8 +62,8 @@ function Map() {
             </div>
                 <div><img src={map_info} className="info" /></div>
             <div className="map_main">{floorMaps[currentFloorIndex]}</div>
-            <Header />
             <div>{floorSelector()}</div>
+            <Header />
         </div>
     );
 }
