@@ -13,7 +13,6 @@ function Theme() {
                 <img src={main} className="main" />
                 <img src={MV} className="MV" />
             </div>
-            <Header />
         </body>
     );
 }

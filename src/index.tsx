@@ -8,7 +8,6 @@ import Contents from "./routes/contents/contents";
 import Top_back from "./routes/top_back/top_back";
 import Tyui from "./routes/tyui/tyui";
 import Header from "./routes/header/headermain";
-import Header_koutyou from "./routes/koutyou/headermain_koutyou";
 import Map from "./routes/map/map";
 import Stamp_rally from "./routes/stamp_rally/stamp_rally";
 import List from "./routes/list/list";
@@ -24,19 +23,14 @@ if (container) {
     const root = createRoot(container);
     root.render(
         <BrowserRouter>
+            <Header />
             <Routes>
-                {/* old - v5: <Route path="/" component={Top} /> */}
-                {/* new - v6: <Route path="/" element={<Top />} /> */}
-
                 <Route path="/" element={<Top />} />
                 <Route path="/contents" element={<Contents />} />
                 <Route path="/top_back" element={<Top_back />} />
                 <Route path="/tyui" element={<Tyui />} />
                 <Route path="/headermain" element={<Header />} />
-                <Route
-                    path="/headermain_koutyou"
-                    element={<Header_koutyou />}
-                />
+                <Route path="/headermain_koutyou" element={<Koutyou />} />
                 <Route path="/map" element={<Map />} />
                 <Route path="/stamp_rally" element={<Stamp_rally />} />
                 <Route path="/list" element={<List />} />
