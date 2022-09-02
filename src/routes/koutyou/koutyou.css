@@ -6,9 +6,9 @@
 }
 .koutyousetumei{
     position: absolute;
-      transform: translate(-50%,20%);
+      transform: translate(-50%,10%);
       min-height: 8vh;
-      height: 35vh;
+      height: 40vh;
 }
 .background_koutyou{
     background-color: #8DC2BB;
