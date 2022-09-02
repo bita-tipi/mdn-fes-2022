@@ -22,7 +22,7 @@
   height: 10vh;
   position: absolute;
   width:11vh;
-  transform: translate(-130%, 80%);
+  transform: translate(10%, -80%);
 }
 
 .top_link {

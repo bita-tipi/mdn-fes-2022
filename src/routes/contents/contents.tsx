@@ -6,6 +6,7 @@ import contents4 from "../../assets/img/contents_theme.svg";
 import contents5 from "../../assets/img/contents_zenya.svg";
 import contents6 from "../../assets/img/contents_koutyou.svg";
 import contents7 from "../../assets/img/contents_stamp.svg";
+import contents8 from "../../assets/img/contents.svg";
 import "./contents.css";
 import { Link } from "react-router-dom";
 import Header from "../header/headermain";
@@ -34,7 +35,7 @@ function Contents() {
                     <img src={contents7} className="contents_stamp" />
                 </Link>
                 <Link to={`/schedule`}>
-                    <img src={contents7} className="contents_schedule" />
+                    <img src={contents8} className="contents_schedule" />
                 </Link>
                 <img src={contents3} className="contents_event" />
             </header>

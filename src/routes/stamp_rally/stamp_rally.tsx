@@ -7,6 +7,7 @@ import stamp1 from "../../assets/img/stamp1.svg";
 import stamp2 from "../../assets/img/stamp2.svg";
 import stamp3 from "../../assets/img/stamp3.svg";
 import stamp4 from "../../assets/img/stamp4.svg";
+import memo from "../../assets/img/stamp_memo.svg";
 import "./stamp_rally.css";
 import Header from "../header/headermain";
 
@@ -23,6 +24,7 @@ function Stamp_rally() {
                 <img src={stamp3} className="stamp3" />
                 <img src={stamp4} className="stamp4" />
             </div>
+            <img src={memo} className="memo" />
             <Header />
         </body>
     );
