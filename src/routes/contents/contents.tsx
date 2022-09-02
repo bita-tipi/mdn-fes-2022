@@ -15,19 +15,19 @@ function Contents() {
     return (
         <div>
             <header className="background_contents">
-                <Link to={"/tyui"}>
-                    <img src={contents} className="contents_tyui" />
-                </Link>
+            <img src={contents3} className="contents_event" />
                 <Link to={"/map"}>
                     <img src={contents2} className="contents_map" />
                 </Link>
                 <Link to={`/theme`}>
                     <img src={contents4} className="contents_theme" />
                 </Link>
+                <Link to={"/tyui"}>
+                    <img src={contents} className="contents_tyui" />
+                </Link>
                 <Link to={`/zenya`}>
                     <img src={contents5} className="contents_zenya" />
                 </Link>
-                <img src={contents3} className="contents_event" />
                 <Link to={`/koutyou`}>
                     <img src={contents6} className="contents_koutyou" />
                 </Link>
@@ -37,7 +37,6 @@ function Contents() {
                 <Link to={`/schedule`}>
                     <img src={contents8} className="contents_schedule" />
                 </Link>
-                <img src={contents3} className="contents_event" />
             </header>
             <Header />
         </div>
