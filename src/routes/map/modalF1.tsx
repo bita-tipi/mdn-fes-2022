@@ -6,18 +6,7 @@ import { useAdobeFonts } from 'react-adobe-fonts'
 export default function MapInfoModal(
     selectedFloor: F,
     selectedClassData: classDataType
-){
-    return(
-        <div>
-        <p className="floor">{selectedFloor}</p>
-        <p className="className">{selectedClassData.className}</p>
-        <p className="title_map">{selectedClassData.title}</p>
-        <p className="description">{selectedClassData.description}</p>
-        </div>
-    );
-}
-
-const App = () => {
+    ){
   const [isLoading, setIsLoading] = useState(false)
   const [isActive, setIsActive] = useState(false)
 
@@ -38,8 +27,15 @@ const App = () => {
 
   return (
     <div>
+
+    <p className="floor">{selectedFloor}</p>
+    <p className="className">{selectedClassData.className}</p>
+    <p className="title_map">{selectedClassData.title}</p>
+    <p className="description">{selectedClassData.description}</p>
+    <div>
       <div>isLoading: {isLoading ? 'true' : 'false'}</div>
       <div>isActive: {isActive ? 'true' : 'false'}</div>
+    </div>
     </div>
   )
 }

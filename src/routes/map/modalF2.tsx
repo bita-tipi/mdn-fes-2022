@@ -2,6 +2,7 @@ import { classDataType, F } from "../../assets/data/constants";
 import "./map.css";
 import { useCallback, useState } from 'react'
 import { useAdobeFonts } from 'react-adobe-fonts'
+import { AdobeFonts } from 'react-adobe-fonts'
 
 
 export default function MapInfoModal(
@@ -18,29 +19,26 @@ export default function MapInfoModal(
     );
     
 }
+
 const App = () => {
-    const [isLoading, setIsLoading] = useState(false)
-    const [isActive, setIsActive] = useState(false)
-  
-    const onLoading = useCallback(() => {
-      setIsLoading(true)
-    }, [])
-  
-    const onActive = useCallback(() => {
-      setIsLoading(false)
-      setIsActive(true)
-    }, [])
-  
-    useAdobeFonts({
-      kitId: 'enj7egy',
-      onLoading,
-      onActive,
-    })
-  
-    return (
-      <div>
-        <div>isLoading: {isLoading ? 'true' : 'false'}</div>
-        <div>isActive: {isActive ? 'true' : 'false'}</div>
-      </div>
-    )
-  }
+  const [isLoading, setIsLoading] = useState(false)
+  const [isActive, setIsActive] = useState(false)
+
+  const onLoading = useCallback(() => {
+    setIsLoading(true)
+  }, [])
+
+  const onActive = useCallback(() => {
+    setIsLoading(false)
+    setIsActive(true)
+  }, [])
+
+  return (
+    <div>
+      <AdobeFonts kitId="euj7egy" onLoading={onLoading} onActive={onActive} />
+
+      <div>isLoading: {isLoading ? 'true' : 'false'}</div>
+      <div>isActive: {isActive ? 'true' : 'false'}</div>
+    </div>
+  )
+}
