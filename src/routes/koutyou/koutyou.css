@@ -1,17 +1,17 @@
-.syasin{
+.syasin {
     position: absolute;
-      transform: translate(-50%,-100%);
-      min-height: 8vh;
-      height: 35vh;
+    transform: translate(-50%, -100%);
+    min-height: 8vh;
+    height: 35vh;
 }
-.koutyousetumei{
+.koutyousetumei {
     position: absolute;
-      transform: translate(-50%,20%);
-      min-height: 8vh;
-      height: 35vh;
+    transform: translate(-50%, 10%);
+    min-height: 8vh;
+    height: 40vh;
 }
-.background_koutyou{
-    background-color: #8DC2BB;
+.background_koutyou {
+    background-color: #8dc2bb;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -20,4 +20,4 @@
     font-size: calc(10px + 2vmin);
     background-repeat: no-repeat;
     background-size: cover;
-   }
+}

@@ -1,6 +1,6 @@
 .background_contents{
     background-color: rgb(187, 225, 231);
-    min-height: 100vh;
+    min-height: 120vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,49 +12,55 @@
 
 .stamp_back{
     position: absolute;
-      transform: translate(-50%,-180%);
+      transform: translate(-50%,-240%);
       min-height: 8vh;
       height: 20vh;
   }
   .stamp_back2{
     position: absolute;
-      transform: translate(-50%,-70%);
+      transform: translate(-50%,-130%);
       min-height: 8vh;
       height: 20vh;
   }
   .stamp_back3{
     position: absolute;
-      transform: translate(-50%,40%);
+      transform: translate(-50%,-20%);
       min-height: 8vh;
       height: 20vh;
   }
 .stamp_camera{
     position: absolute;
-    transform: translate(270%,350%);
+    transform: translate(270%,250%);
     min-height: 8vh;
     height: 9vh;
 }
 .stamp1{
     position: absolute;
-    transform: translate(40%,-233%);
+    transform: translate(40%,-328%);
     min-height: 8vh;
     height: 13vh;
 }
 .stamp2{
     position: absolute;
-    transform: translate(-150%,-210%);
+    transform: translate(-150%,-290%);
     min-height: 8vh;
     height: 15vh;
 }
 .stamp3{
     position: absolute;
-    transform: translate(-50%,-60%);
+    transform: translate(-50%,-143%);
     min-height: 8vh;
     height: 15vh;
 }
 .stamp4{
     position: absolute;
-    transform: translate(65%,-65%);
+    transform: translate(65%,-150%);
     min-height: 8vh;
     height: 14.5vh;
+}
+.memo{
+    position: absolute;
+    transform: translate(0%,145%);
+    min-height: 8vh;
+    height: 30vh;
 }
