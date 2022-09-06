@@ -17,6 +17,8 @@ import Zenya from "./routes/zenya/zenya";
 import Schedule from "./routes/schedule/schedule";
 import { Routes } from "react-router-dom";
 import { createRoot } from "react-dom/client";
+import { useCallback, useState } from 'react'
+import { AdobeFonts } from 'react-adobe-fonts'
 
 const container = document.getElementById("root");
 if (container) {
@@ -43,25 +45,28 @@ if (container) {
     );
 }
 
-<head>
-<script
-  dangerouslySetInnerHTML={{
-    __html: `
-    <script>
-(function(d) {
-  var config = {
-    kitId: 'euj7egy',
-    scriptTimeout: 3000,
-    async: true
-  },
-  h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-})(document);
-</script>
-    .... // Adobe Fontのコードからコピー
-      `}}
-/>
-</head>
+const App = () => {
+  const [isLoading, setIsLoading] = useState(false)
+  const [isActive, setIsActive] = useState(false)
+
+  const onLoading = useCallback(() => {
+    setIsLoading(true)
+  }, [])
+
+  const onActive = useCallback(() => {
+    setIsLoading(false)
+    setIsActive(true)
+  }, [])
+
+  return (
+    <div>
+      <AdobeFonts kitId="euj7egy" onLoading={onLoading} onActive={onActive} />
+
+      <div>isLoading: {isLoading ? 'true' : 'false'}</div>
+      <div>isActive: {isActive ? 'true' : 'false'}</div>
+    </div>
+  )
+}
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

@@ -61,7 +61,7 @@
 }
 .description{
     height:10vh;
-    transform: translate(8%,10%);
+    transform: translate(8%,5%);
     font-family: vdl-logojrblack, sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -76,16 +76,16 @@ font-style: normal;
 }
 .className{
     height:10vh;
-    transform: translate(12%,90%);
-    font-size: 5vh;
+    transform: translate(10%,85%);
+    font-size: 4vh;
     font-family: vdl-logojrblack, sans-serif;
-font-weight: 900;
+font-weight: 700;
 font-style: normal;
 }
 .floor{
     height:10vh;
-    transform: translate(65%,325%);
-    font-size: 7vh;
+    transform: translate(58%,305%);
+    font-size: 6vh;
     font-family: vdl-logojrblack, sans-serif;
 font-weight: 900;
 font-style: normal;
@@ -107,16 +107,16 @@ font-style: normal;
 }
 .className_F2{
     height:10vh;
-    transform: translate(5%,90%);
-    font-size: 5vh;
+    transform: translate(2%,85%);
+    font-size: 4vh;
     font-family: vdl-logojrblack, sans-serif;
 font-weight: 900;
 font-style: normal;
 }
 .floor_F2{
     height:10vh;
-    transform: translate(68%,325%);
-    font-size: 7vh;
+    transform: translate(60%,305%);
+    font-size: 6vh;
     font-family: vdl-logojrblack, sans-serif;
 font-weight: 900;
 font-style: normal;
