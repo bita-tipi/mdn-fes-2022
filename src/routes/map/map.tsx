@@ -65,7 +65,7 @@ function Map() {
             <div className="map_main">{floorMaps[currentFloorIndex]}</div>
             <div>{floorSelector()}</div>
         </div>
-    );
+    )
 }
 
 export default Map;

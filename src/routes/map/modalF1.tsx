@@ -18,10 +18,10 @@ export default function MapInfoModal(
     <p className="className">{selectedClassData.className}</p>
     </div>
     <div>
-    <p className="title_map">{selectedClassData.title}</p>
-    </div>
-    <div>
     <p className="description">{selectedClassData.description}</p>
+    </div>
+    <div className="title">
+    <p className="title_map">{selectedClassData.title}</p>
     </div>
 </body>
   )

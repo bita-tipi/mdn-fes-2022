@@ -19,7 +19,6 @@ function Tyui() {
                     <img src={left_bottom} className="left_bottom" />
                     <img src={right_bottom} className="right_bottom" />
                 </div>
-                <Header />
             </header>
         </div>
     );

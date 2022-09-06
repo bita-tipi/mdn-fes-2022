@@ -12,7 +12,7 @@ export default function F1Map() {
             <img src={F1}className="MAP"/>
         </div>
         <div className="modal">
-            {MapInfoModal( F[4], CLASS_DATA.GRADE2.J2A )}
+            {MapInfoModal( F[4], CLASS_DATA.GRADE2.J2B )}
         </div>
     </div>
     );

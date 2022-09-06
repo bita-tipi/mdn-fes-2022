@@ -86,13 +86,13 @@ const T2C: classDataType = {
 
 const J2A: classDataType = {
     className: "J2A",
-    title: "縁日かも～🍆",
-    description: "いろんな屋台があるよん",
+    title: "縁日かも～",
+    description: "いろんな屋台があるよ　　　　　　　　途中で改行もできるよ",
 } as const;
 
 const J2B: classDataType = {
     className: "J2B",
-    title: "ポチポチカタカタ",
+    title: "夢のクラスへようこそ",
     description: "フリック入力とローマ字入力対決",
 } as const;
 

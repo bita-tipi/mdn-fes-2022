@@ -15,7 +15,6 @@ function Schedule() {
                 <img src={time_bar} className="time_bar" />
                 <img src={time} className="time" />
             </div>
-            <Header />
         </body>
     );
 }

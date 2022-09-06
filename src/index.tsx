@@ -18,7 +18,6 @@ import Schedule from "./routes/schedule/schedule";
 import { Routes } from "react-router-dom";
 import { createRoot } from "react-dom/client";
 import { useCallback, useState } from 'react'
-import { AdobeFonts } from 'react-adobe-fonts'
 
 const container = document.getElementById("root");
 if (container) {
@@ -43,29 +42,6 @@ if (container) {
             </Routes>
         </BrowserRouter>
     );
-}
-
-const App = () => {
-  const [isLoading, setIsLoading] = useState(false)
-  const [isActive, setIsActive] = useState(false)
-
-  const onLoading = useCallback(() => {
-    setIsLoading(true)
-  }, [])
-
-  const onActive = useCallback(() => {
-    setIsLoading(false)
-    setIsActive(true)
-  }, [])
-
-  return (
-    <div>
-      <AdobeFonts kitId="euj7egy" onLoading={onLoading} onActive={onActive} />
-
-      <div>isLoading: {isLoading ? 'true' : 'false'}</div>
-      <div>isActive: {isActive ? 'true' : 'false'}</div>
-    </div>
-  )
 }
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

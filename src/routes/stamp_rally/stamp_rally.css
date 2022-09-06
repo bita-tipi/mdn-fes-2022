@@ -11,56 +11,18 @@
    }
 
 .stamp_back{
-    position: absolute;
-      transform: translate(-50%,-240%);
-      min-height: 8vh;
-      height: 20vh;
+      transform: translate(55%,10%);
+      height:600px;
   }
-  .stamp_back2{
-    position: absolute;
-      transform: translate(-50%,-130%);
-      min-height: 8vh;
-      height: 20vh;
-  }
-  .stamp_back3{
-    position: absolute;
-      transform: translate(-50%,-20%);
-      min-height: 8vh;
-      height: 20vh;
-  }
-.stamp_camera{
-    position: absolute;
-    transform: translate(270%,250%);
-    min-height: 8vh;
-    height: 9vh;
-}
-.stamp1{
-    position: absolute;
-    transform: translate(40%,-328%);
-    min-height: 8vh;
-    height: 13vh;
-}
-.stamp2{
-    position: absolute;
-    transform: translate(-150%,-290%);
-    min-height: 8vh;
-    height: 15vh;
-}
-.stamp3{
-    position: absolute;
-    transform: translate(-50%,-143%);
-    min-height: 8vh;
-    height: 15vh;
-}
-.stamp4{
-    position: absolute;
-    transform: translate(65%,-150%);
-    min-height: 8vh;
-    height: 14.5vh;
-}
 .memo{
-    position: absolute;
-    transform: translate(0%,145%);
+    transform: translate(-60%,280%);
     min-height: 8vh;
     height: 30vh;
+}
+.stamp_camera{
+    height:80px;
+    transform: translate(450%,650%);
+}
+.stamp_main{
+ display:flex;
 }
