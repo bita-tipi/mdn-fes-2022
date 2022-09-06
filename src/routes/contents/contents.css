@@ -1,59 +1,22 @@
-.background_contents{
-  background-color: rgb(187, 225, 231);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  background-repeat: no-repeat;
-  background-size: cover;
- }
-.contents_tyui{
-  position: absolute;
-    transform: translate(-50%,-130%);
-    min-height: 8vh;
-    height: 8vh;
+.background {
+    background-color: rgb(187, 225, 231);
+    height: 100vh;
+    height: 100dvh;
 }
-.contents_map{
-  position: absolute;
-    transform: translate(-50%,-370%);
-    min-height: 8vh;
-    height: 8vh;
+
+.contents-container {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    margin: auto;
+    max-width: 460px;
+    padding: 30px;
 }
-.contents_event{
-  position: absolute;
-    transform: translate(0%,-580%);
-    min-height: 5vh;
-    height: 6vh;
+
+.contents-event {
+    padding-bottom: 10px;
 }
-.contents_theme{
-  position: absolute;
-  transform: translate(-50%,-250%);
-  min-height: 8vh;
-  height: 8vh;
-}
-.contents_zenya{
-  position: absolute;
-  transform: translate(-50%,-10%);
-  min-height: 8vh;
-  height: 8vh;
-}
-.contents_koutyou{
-  position: absolute;
-  transform: translate(-50%,110%);
-  min-height: 8vh;
-  height: 8vh;
-}
-.contents_stamp{
-  position: absolute;
-  transform: translate(-50%,230%);
-  min-height: 8vh;
-  height: 8vh;
-}
-.contents_schedule{
-  position: absolute;
-  transform: translate(-50%,350%);
-  min-height: 8vh;
-  height: 8vh;
+
+.router-button {
+    padding: 3px;
 }

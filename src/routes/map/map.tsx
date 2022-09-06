@@ -53,17 +53,17 @@ function Map() {
 
     return (
         <div className="background_map">
-
             <div>
                 <Link to={"/list"}>
                     <img src={map_list} className="list" />
                 </Link>
                 <div className="setumei"></div>
             </div>
-                <div><img src={map_info} className="info" /></div>
+            <div>
+                <img src={map_info} className="info" />
+            </div>
             <div className="map_main">{floorMaps[currentFloorIndex]}</div>
             <div>{floorSelector()}</div>
-            <Header />
         </div>
     );
 }
