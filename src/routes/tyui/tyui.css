@@ -1,51 +1,40 @@
 .background_tyui{
     background-color: rgb(187, 225, 231);
-    min-height: 150vh;
-    min-width: 18vh;
+    height: 125vh;
+    height: 150dvh;
+   }
+   .tyui-container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    background-repeat:repeat;
-    background-size:contain;
+    flex-flow: column;
+    text-align: center;
+    margin: auto;
+    max-width: 460px;
+    padding: 25px;
    }
    .left_over{
     position: absolute;
-    transform: translate(-115%, -120%);
-    min-height: 10vh;
-    height: 47vh;
+    transform: translate(-175%, -215%);
+    min-height: 50vh;
+    height: 50vh;
    }
    .back{
-    position: absolute;
-    transform: translate(-50%, -96%);
-    min-height: 10vh;
-    height:70vh;
-   }
-   .back2{
-    position: absolute;
-    transform: translate(-50%, 4%);
-    min-height: 10vh;
-    height:70vh;
-    overflow: hidden;
+    margin: -0.4%;
    }
    .right_over{
     position: absolute;
-    transform: translate(4%,-75%);
-    min-height: 10vh;
+    transform: translate(-60%,-175%);
+    min-height: 50vh;
     height: 50vh;
-    overflow: hidden;
    }
    .left_bottom{
     position: absolute;
-    transform: translate(-115%,5%);
-    min-height: 10vh;
+    transform: translate(-190%,-80%);
+    min-height: 50vh;
     height: 65vh;
-    overflow: hidden;
    }
    .right_bottom{
     position: absolute;
-    transform: translate(13%,40%);
-    min-height: 10vh;
-    height: 50vh;
+    transform: translate(-65%,-58%);
+    min-height: 50vh;
+    height: 55vh;
    }
