@@ -1,6 +1,6 @@
 .background_tyui{
     background-color: rgb(187, 225, 231);
-    height: 125vh;
+    height: 115.5vh;
     height: 150dvh;
    }
    .tyui-container{
@@ -13,28 +13,28 @@
    }
    .left_over{
     position: absolute;
-    transform: translate(-175%, -215%);
-    min-height: 50vh;
-    height: 50vh;
+    transform: translate(-185%, -130%);
+    min-height: 40vh;
+    height: 35vh;
    }
    .back{
     margin: -0.4%;
    }
    .right_over{
     position: absolute;
-    transform: translate(-60%,-175%);
-    min-height: 50vh;
-    height: 50vh;
+    transform: translate(-85%,-90%);
+    min-height: 40vh;
+    height: 35vh;
    }
    .left_bottom{
     position: absolute;
-    transform: translate(-190%,-80%);
-    min-height: 50vh;
-    height: 65vh;
+    transform: translate(-205%,3.2%);
+    min-height: 40vh;
+    height: 55vh;
    }
    .right_bottom{
     position: absolute;
-    transform: translate(-65%,-58%);
-    min-height: 50vh;
-    height: 55vh;
+    transform: translate(-65%,13.5%);
+    min-height: 40vh;
+    height: 50vh;
    }
