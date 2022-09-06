@@ -1,7 +1,7 @@
 
 .background_map {
     background-color: rgb(187, 225, 231);
-    min-height: 100vh;
+    height: 120vh;
     display: flex;
     width:100%;
     flex-direction: column;
@@ -61,10 +61,11 @@
 }
 .description{
     height:10vh;
-    transform: translate(8%,5%);
+    transform: translate(8%,9%);
     font-family: vdl-logojrblack, sans-serif;
     font-weight: 900;
     font-style: normal;
+    color:#656464;
 }
 .title_map{
     height:10vh;
@@ -73,6 +74,7 @@
     font-family: vdl-logojrblack, sans-serif;
 font-weight: 900;
 font-style: normal;
+color:#656464;
 }
 .className{
     height:10vh;
@@ -81,14 +83,16 @@ font-style: normal;
     font-family: vdl-logojrblack, sans-serif;
 font-weight: 700;
 font-style: normal;
+color:#656464;
 }
 .floor{
     height:10vh;
-    transform: translate(58%,305%);
+    transform: translate(58.5%,305%);
     font-size: 6vh;
     font-family: vdl-logojrblack, sans-serif;
 font-weight: 900;
 font-style: normal;
+color:#656464;
 }
 .description_F2{
     height:10vh;
@@ -96,6 +100,7 @@ font-style: normal;
     font-family: vdl-logojrblack, sans-serif;
 font-weight: 900;
 font-style: normal;
+color:#656464;
 }
 .title_map_F2{
     height:10vh;
@@ -104,6 +109,7 @@ font-style: normal;
     font-family: vdl-logojrblack, sans-serif;
     font-weight: 900;
     font-style: normal;
+    color:#656464;
 }
 .className_F2{
     height:10vh;
@@ -112,6 +118,7 @@ font-style: normal;
     font-family: vdl-logojrblack, sans-serif;
 font-weight: 900;
 font-style: normal;
+color:#656464;
 }
 .floor_F2{
     height:10vh;
@@ -120,5 +127,6 @@ font-style: normal;
     font-family: vdl-logojrblack, sans-serif;
 font-weight: 900;
 font-style: normal;
+color:#656464;
 }
 

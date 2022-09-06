@@ -10,12 +10,19 @@ export default function MapInfoModal(
     ){
 
   return (
+    <body>
     <div>
     <p className="floor">{selectedFloor}</p>
+    </div>
+    <div>
     <p className="className">{selectedClassData.className}</p>
+    </div>
+    <div>
     <p className="title_map">{selectedClassData.title}</p>
+    </div>
+    <div>
     <p className="description">{selectedClassData.description}</p>
     </div>
-
+</body>
   )
 }
