@@ -12,40 +12,33 @@
    }
    .left_over{
     position: absolute;
-    transform: translate(-115%, -120%);
-    min-height: 10vh;
-    height: 47vh;
+    transform: translate(-100%, -122%);
+    height: 55vh;
    }
    .back{
     position: absolute;
-    transform: translate(-50%, -96%);
-    min-height: 10vh;
+    transform: translate(-50%, -100%);
     height:70vh;
    }
    .back2{
     position: absolute;
-    transform: translate(-50%, 4%);
-    min-height: 10vh;
+    transform: translate(-50%, 0%);
     height:70vh;
-    overflow: hidden;
    }
    .right_over{
     position: absolute;
-    transform: translate(4%,-75%);
-    min-height: 10vh;
-    height: 50vh;
+    transform: translate(-4%,-85%);
+    height: 55vh;
     overflow: hidden;
    }
    .left_bottom{
     position: absolute;
-    transform: translate(-115%,5%);
-    min-height: 10vh;
-    height: 65vh;
+    transform: translate(-105%,-8%);
+    height: 75vh;
     overflow: hidden;
    }
    .right_bottom{
     position: absolute;
-    transform: translate(13%,40%);
-    min-height: 10vh;
-    height: 50vh;
+    transform: translate(10%,25%);
+    height: 55vh;
    }
