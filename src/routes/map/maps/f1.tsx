@@ -8,9 +8,9 @@ export default function F1Map() {
 
     return (
     <div>
-        <div>
-            <img src={F1}className="MAP"/>
-        </div>
+    <div className="MAP2">
+        <img src={F1}className="MAP"/>
+    </div>
         <div className="modal">
             {MapInfoModal( F[4], CLASS_DATA.GRADE2.J2A )}
         </div>
