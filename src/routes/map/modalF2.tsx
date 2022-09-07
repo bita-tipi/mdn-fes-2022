@@ -1,11 +1,14 @@
 import { classDataType, F } from "../../assets/data/constants";
 import "./map.css";
+import { useCallback, useState } from 'react'
+import { useAdobeFonts } from 'react-adobe-fonts'
+import { AdobeFonts } from 'react-adobe-fonts'
 
 
 export default function MapInfoModal(
     selectedFloor: F,
     selectedClassData: classDataType
-){
+    ){
     return(
         <div>
         <p className="floor_F2">{selectedFloor}</p>
@@ -14,4 +17,5 @@ export default function MapInfoModal(
         <p className="description_F2">{selectedClassData.description}</p>
         </div>
     );
+    
 }

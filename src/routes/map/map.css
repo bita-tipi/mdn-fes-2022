@@ -1,7 +1,7 @@
-@import url("https://use.typekit.net/sgb5xrt.css");
+
 .background_map {
     background-color: rgb(187, 225, 231);
-    min-height: 100vh;
+    height: 120vh;
     display: flex;
     width:100%;
     flex-direction: column;
@@ -61,10 +61,11 @@
 }
 .description{
     height:10vh;
-    transform: translate(8%,10%);
+    transform: translate(8%,9%);
     font-family: vdl-logojrblack, sans-serif;
     font-weight: 900;
     font-style: normal;
+    color:#656464;
 }
 .title_map{
     height:10vh;
@@ -73,22 +74,25 @@
     font-family: vdl-logojrblack, sans-serif;
 font-weight: 900;
 font-style: normal;
+color:#656464;
 }
 .className{
     height:10vh;
-    transform: translate(12%,90%);
-    font-size: 5vh;
+    transform: translate(10%,85%);
+    font-size: 4vh;
     font-family: vdl-logojrblack, sans-serif;
-font-weight: 900;
+font-weight: 700;
 font-style: normal;
+color:#656464;
 }
 .floor{
     height:10vh;
-    transform: translate(65%,325%);
-    font-size: 7vh;
+    transform: translate(58.5%,305%);
+    font-size: 6vh;
     font-family: vdl-logojrblack, sans-serif;
 font-weight: 900;
 font-style: normal;
+color:#656464;
 }
 .description_F2{
     height:10vh;
@@ -96,29 +100,33 @@ font-style: normal;
     font-family: vdl-logojrblack, sans-serif;
 font-weight: 900;
 font-style: normal;
+color:#656464;
 }
 .title_map_F2{
     height:10vh;
     transform: translate(0%,25%);
     font-size: 4vh;
     font-family: vdl-logojrblack, sans-serif;
-font-weight: 900;
-font-style: normal;
+    font-weight: 900;
+    font-style: normal;
+    color:#656464;
 }
 .className_F2{
     height:10vh;
-    transform: translate(5%,90%);
-    font-size: 5vh;
+    transform: translate(2%,85%);
+    font-size: 4vh;
     font-family: vdl-logojrblack, sans-serif;
 font-weight: 900;
 font-style: normal;
+color:#656464;
 }
 .floor_F2{
     height:10vh;
-    transform: translate(68%,325%);
-    font-size: 7vh;
+    transform: translate(60%,305%);
+    font-size: 6vh;
     font-family: vdl-logojrblack, sans-serif;
 font-weight: 900;
 font-style: normal;
+color:#656464;
 }
 
