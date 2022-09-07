@@ -11,7 +11,6 @@ function Zenya() {
                 <img src={title} className="title_zenya"/>
                 <img src={time} className="time_zenya"/>
                 <img src={schedule}className="schedule_zenya"/>
-            <Header />
         </body>
     );
 }
