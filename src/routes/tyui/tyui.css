@@ -13,7 +13,7 @@
    }
    .left_over{
     position: absolute;
-    transform: translate(-185%, -135%);
+    transform: translate(-185%, -125%);
     height: 55vh;
    }
    .back{
@@ -21,16 +21,16 @@
    }
    .right_over{
     position: absolute;
-    transform: translate(-87%,-95%);
+    transform: translate(-87%,-80%);
     height: 55vh;
    }
    .left_bottom{
     position: absolute;
-    transform: translate(-205%,3.2%);
-    height: 55vh;
+    transform: translate(-205%,0%);
+    height: 77vh;
    }
    .right_bottom{
     position: absolute;
-    transform: translate(-85%,13.5%);
-    height: 50vh;
+    transform: translate(-90%,40%);
+    height: 55vh;
    }
