@@ -1,36 +1,44 @@
 .background_tyui{
     background-color: rgb(187, 225, 231);
-    height: 165vh;
-    height: 150dvh;
-   }
-   .tyui-container{
+    min-height: 150vh;
+    min-width: 18vh;
     display: flex;
-    flex-flow: column;
-    text-align: center;
-    margin: auto;
-    max-width: 460px;
-    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-repeat:repeat;
+    background-size:contain;
    }
    .left_over{
     position: absolute;
-    transform: translate(-185%, -125%);
+    transform: translate(-100%, -122%);
     height: 55vh;
    }
    .back{
-    margin: -0.6%;
+    position: absolute;
+    transform: translate(-50%, -100%);
+    height:70vh;
+   }
+   .back2{
+    position: absolute;
+    transform: translate(-50%, 0%);
+    height:70vh;
    }
    .right_over{
     position: absolute;
-    transform: translate(-87%,-80%);
+    transform: translate(-4%,-85%);
     height: 55vh;
+    overflow: hidden;
    }
    .left_bottom{
     position: absolute;
-    transform: translate(-205%,0%);
-    height: 77vh;
+    transform: translate(-105%,-8%);
+    height: 75vh;
+    overflow: hidden;
    }
    .right_bottom{
     position: absolute;
-    transform: translate(-90%,40%);
+    transform: translate(10%,25%);
     height: 55vh;
    }
