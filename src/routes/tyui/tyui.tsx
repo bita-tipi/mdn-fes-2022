@@ -1,7 +1,7 @@
 import React from "react";
-import left_over from "../../assets/img/left_over.svg";
+import left_over from "../../assets/img/tyui_left_over.svg";
 import back from "../../assets/img/tyui_background.svg";
-import right_over from "../../assets/img/right_over2.svg";
+import right_over from "../../assets/img/tyui_right_over.svg";
 import left_bottom from "../../assets/img/tyui_left_bottom.svg";
 import right_bottom from "../../assets/img/tyui_right_bottom.svg";
 import "./tyui.css";
