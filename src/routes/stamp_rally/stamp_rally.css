@@ -12,17 +12,17 @@
    }
 
 .stamp_back{
-      transform: translate(70%,-60%);
-      height:600px;
+      transform: translate(-60%,-50%);
+      height:400px;
   }
 .memo{
-    transform: translate(-45%,80%);
-    min-height: 8vh;
-    height: 30vh;
+    transform: translate(-160%,40%);
+    height: 18
+    0px;
 }
 .stamp_camera{
     height:80px;
-    transform: translate(530%,200%);
+    transform: translate(-370%,-370%);
 }
 .stamp_main{
  display:flex;
