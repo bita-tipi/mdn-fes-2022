@@ -6,7 +6,7 @@ import syasin from "../../assets/img/koutyou_syasin.svg";
 function Koutyou() {
     return (
         <body className="background_koutyou">
-            <div>
+            <div className="Kty">
                 <img src={syasin} className="syasin" />
                 <img src={setumei} className="koutyousetumei" />
             </div>
