@@ -13,9 +13,11 @@ return (
         <body className="background_stamp">
             <header className="stamp_main">
                 <img src={back} className="stamp_back" />
-                <img src={stamp_camera} className="stamp_camera" />
                 <img src={memo} className="memo" />
             </header>
+            <div>
+            <img src={stamp_camera} className="stamp_camera" />
+            </div>
         </body>
     );
 }
