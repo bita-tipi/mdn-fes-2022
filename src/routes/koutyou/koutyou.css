@@ -1,19 +1,19 @@
 .syasin {
     position: absolute;
-    transform: translate(-165%, -125%);
+    transform: translate(-50%, -125%);
     min-height: 8vh;
     height: 35vh;
 }
 .koutyousetumei {
     position: absolute;
-    transform: translate(-100%, -10%);
+    transform: translate(-50%, -10%);
     min-height: 8vh;
     height: 40vh;
 }
 .background_koutyou {
     background-color: #8dc2bb;
     min-height: 100vh;
-    width:100vh;
+    width:100%;
     display: flex;
     flex-direction: column;
     align-items: center;
