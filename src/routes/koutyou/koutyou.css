@@ -1,12 +1,12 @@
 .syasin {
     position: absolute;
-    transform: translate(-65%, -100%);
+    transform: translate(-165%, -125%);
     min-height: 8vh;
     height: 35vh;
 }
 .koutyousetumei {
     position: absolute;
-    transform: translate(-50%, 10%);
+    transform: translate(-100%, -10%);
     min-height: 8vh;
     height: 40vh;
 }
