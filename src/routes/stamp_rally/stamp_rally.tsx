@@ -10,7 +10,7 @@ import Stamp from "./Stamp"
 function Stamp_rally() {
 
 return (
-        <body className="background_contents">
+        <body className="background_stamp">
             <header className="stamp_main">
                 <img src={back} className="stamp_back" />
                 <img src={stamp_camera} className="stamp_camera" />

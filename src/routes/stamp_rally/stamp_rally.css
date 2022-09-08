@@ -1,6 +1,7 @@
-.background_contents{
+.background_stamp{
     background-color: rgb(187, 225, 231);
     min-height: 120vh;
+    width:100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,17 +12,17 @@
    }
 
 .stamp_back{
-      transform: translate(55%,10%);
+      transform: translate(70%,-60%);
       height:600px;
   }
 .memo{
-    transform: translate(-60%,280%);
+    transform: translate(-45%,80%);
     min-height: 8vh;
     height: 30vh;
 }
 .stamp_camera{
     height:80px;
-    transform: translate(450%,650%);
+    transform: translate(530%,200%);
 }
 .stamp_main{
  display:flex;
