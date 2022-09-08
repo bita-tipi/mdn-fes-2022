@@ -24,5 +24,4 @@ width:50px;
 .stamp_main{
  display:flex;
  flex-flow:column;
- background-color: aqua;
 }
