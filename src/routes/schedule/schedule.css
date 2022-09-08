@@ -27,3 +27,7 @@
     height:350vh;
     transform: translate(-470%,-3%);
 }
+.schedule{
+    display: flex;
+    
+}
