@@ -9,6 +9,7 @@ export default function F1Map() {
     <div>
         <div className="MAP2">
             <img src={F1} className="map-img"/>
+            <div className="G3J"></div>
         </div>
     </div>
     );

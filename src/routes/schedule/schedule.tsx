@@ -9,7 +9,7 @@ import time from "../../assets/img/time.svg";
 function Schedule() {
     return (
         <body className="background_schedule">
-            <div>
+            <div className="schedule">
                 <img src={main_bar} className="main_bar" />
                 <img src={side_bar} className="side_bar" />
                 <img src={time_bar} className="time_bar" />
