@@ -31,3 +31,7 @@
     display: flex;
     
 }
+title{
+    height:350vh;
+    transform: translate(37%,1%);
+}
