@@ -16,33 +16,26 @@ import "./stamp_rally.css";
 import Header from "../header/headermain";
 import Stamp from "./Stamp"
 
-const stamp_cell = [
-    [0,1,2,3,4,5,6,7,8],
-    [stamp1,stamp2,stamp3,stamp4,stamp5,stamp6,stamp7,stamp8,stamp9],
+const stamp = [
+    [stamp1,stamp2,stamp3,stamp4,stamp5,stamp6,stamp7,stamp8,stamp9]
 ];
 
 function Stamp_rally() {
-    const [currentFloorIndex, updateFloorIndex] = useState(0);
-
-    function clickHandler(index: number) {
-        updateFloorIndex(index);
-        console.log(`, ${index + 1}F`);
-    }
+    const [currentStampCell, updateStampCell] = useState(0);
 
     function floorSelector() {
-        let selector = [];
-        for (let index = 0; index < stamp_cell[0].length; index++) {
-            const isSelected = currentFloorIndex === index;
-            selector.push(
-                <div className="floor_selector">
-                    <img
-                        src={stamp_cell[Number(isSelected)][index]}
+        let stamp_cell = useState(false);
+        for (let index = 0; index < stamp[0].length; index++) {
+            const isSelected = currentStampCell === index;
+            stamp_cell.push(
+                <div className="floor_selector"> 
+                    <img src={stamp[Number(isSelected)][index]}
                         alt=""
                     />
                 </div>
             );
         }
-        return selector;
+        return select;
     }
 
 return (
