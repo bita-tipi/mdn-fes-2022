@@ -1,21 +1,20 @@
-
 .background_map {
     background-color: rgb(187, 225, 231);
-    height: 120vh;
+    height: 93vh;
     display: flex;
-    width:100%;
+    width: 100%;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     font-size: calc(10px + 2vmin);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .setumei {
     background-color: #eeeeee;
     min-height: 40vh;
     height: 45vh;
-    width:80vh;
+    width: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,8 +23,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     transform: translate(0%, 125%);
-    overflow: hidden;
 }
+
 .list {
     height: 8vh;
     width: 8vh;
@@ -34,99 +33,89 @@
 
 .floor_selector {
     cursor: pointer;
+    display: inline-block;
+    padding: 0 5px 0 5px;
+    width: 20vw;
 }
 
-.f1 {
-    height: 4vh;
-    transform: translate(-160%, -2700%);
+.floor_selector_container {
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
 }
-.f2 {
-    height: 4vh;
-    transform: translate(-50%, -2820%);
+
+.map_info_modal_container{
+    background-color: #eeeeee;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
 }
-.f3 {
-    height: 4vh;
-    transform: translate(60%, -2940%);
+
+.map_info_modal_img {
+    max-height: 140px;
+    padding: 40px;
+    margin-left:20px;
+    margin-bottom: 5px;
+    text-align: center;
+    
 }
-.f4 {
-    height: 4vh;
-    transform: translate(170%, -3060%);
+
+.map-img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
-.map_main{
-    transform: translate(0%, -200%);
-    height:40vh;
-}.info{
-    height:28vh;
-    transform: translate(0%,50%);
+
+.map_main {
+    width: 330px;
+    padding: 20px;
 }
-.description{
-    height:10vh;
-    transform: translate(8%,9%);
+
+.info {
+    height: 28vh;
+    transform: translate(0%, 50%);
+}
+
+.description {
+    height: 100px;
+    line-height: 45px;
+    width: 545px;
+    transform: translate(8%, 125%);
     font-family: vdl-logojrblack, sans-serif;
     font-weight: 900;
     font-style: normal;
-    color:#656464;
+    color: #656464;
 }
-.title_map{
-    height:10vh;
-    transform: translate(8%,25%);
-    font-size: 4vh;
-    font-family: vdl-logojrblack, sans-serif;
-font-weight: 900;
-font-style: normal;
-color:#656464;
-}
-.className{
-    height:10vh;
-    transform: translate(10%,85%);
-    font-size: 4vh;
-    font-family: vdl-logojrblack, sans-serif;
-font-weight: 700;
-font-style: normal;
-color:#656464;
-}
-.floor{
-    height:10vh;
-    transform: translate(58.5%,305%);
-    font-size: 6vh;
-    font-family: vdl-logojrblack, sans-serif;
-font-weight: 900;
-font-style: normal;
-color:#656464;
-}
-.description_F2{
-    height:10vh;
-    transform: translate(0%,10%);
-    font-family: vdl-logojrblack, sans-serif;
-font-weight: 900;
-font-style: normal;
-color:#656464;
-}
-.title_map_F2{
-    height:10vh;
-    transform: translate(0%,25%);
-    font-size: 4vh;
+
+.title_map {
+    width: 240px;
+    height: 100px;
+    line-height: 22px;
+    transform: translate(20%, -85%);
+    font-size: 20px;
     font-family: vdl-logojrblack, sans-serif;
     font-weight: 900;
     font-style: normal;
-    color:#656464;
-}
-.className_F2{
-    height:10vh;
-    transform: translate(2%,85%);
-    font-size: 4vh;
-    font-family: vdl-logojrblack, sans-serif;
-font-weight: 900;
-font-style: normal;
-color:#656464;
-}
-.floor_F2{
-    height:10vh;
-    transform: translate(60%,305%);
-    font-size: 6vh;
-    font-family: vdl-logojrblack, sans-serif;
-font-weight: 900;
-font-style: normal;
-color:#656464;
+    color: #656464;
 }
 
+.className {
+    height: 10vh;
+    transform: translate(12%, 85%);
+    font-size: 4vh;
+    font-family: vdl-logojrblack, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #656464;
+}
+
+.floor {
+    height: 10vh;
+    transform: translate(58%, 305%);
+    font-size: 6vh;
+    font-family: vdl-logojrblack, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #656464;
+}

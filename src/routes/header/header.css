@@ -1,5 +1,9 @@
 .header {
     height: 85px;
+    position: sticky;
+    position:-webkit-sticky;
+    z-index:9999;
+    top:0;
 }
 
 .header-container {
