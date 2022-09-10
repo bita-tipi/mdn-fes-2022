@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import under_moji from "../../assets/img/under_moji.svg";
 import under_bottom_moji from "../../assets/img/under_bottom_moji.svg";
 import under_obi from "../../assets/img/under_obi.svg";
-import schedule from "../../assets/img/schedule.svg";
+import schedule from "../../assets/img/switch_back.svg";
 
 function Top_back() {
     return (

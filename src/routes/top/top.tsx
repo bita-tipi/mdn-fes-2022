@@ -1,6 +1,6 @@
 import top_center from "../../assets/img/top_center.svg";
 import top_link from "../../assets/img/top_link.svg";
-import schedule from "../../assets/img/schedule.svg";
+import schedule from "../../assets/img/switch_top.svg";
 import obi from "../../assets/img/2022.svg";
 import top_moji from "../../assets/img/top_moji.svg";
 import bottom_moji from "../../assets/img/bottom_moji.svg";
@@ -14,6 +14,9 @@ function Top() {
                 <img src={top_center} className="top_center" />
                 <Link to={"/contents"} className="top_link">
                     <img src={top_link} />
+                </Link>
+                <Link to={"/top_back"}>
+                    <img src={schedule} className="schedule" />
                 </Link>
                 <img src={obi} className="obi" />
                 <img src={top_moji} className="top_moji" />
