@@ -15,9 +15,6 @@ function Top() {
                 <Link to={"/contents"} className="top_link">
                     <img src={top_link} />
                 </Link>
-                <Link to={"/top_back"}>
-                    <img src={schedule} className="schedule" />
-                </Link>
                 <img src={obi} className="obi" />
                 <img src={top_moji} className="top_moji" />
                 <img src={bottom_moji} className="bottom_moji" />

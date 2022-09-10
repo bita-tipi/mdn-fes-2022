@@ -25,9 +25,6 @@ function Contents() {
                 <Link to={"/tyui"}>
                     <img src={contents} className="router-button" />
                 </Link>
-                <Link to={`/zenya`}>
-                    <img src={contents5} className="router-button" />
-                </Link>
                 <Link to={`/koutyou`}>
                     <img src={contents6} className="router-button" />
                 </Link>
