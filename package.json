@@ -46,6 +46,7 @@
     "panzoom": "^9.4.3",
     "react-adobe-fonts": "^0.1.0",
     "react-easy-panzoom": "^0.4.4",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "react-table": "^7.8.0"
   }
 }
