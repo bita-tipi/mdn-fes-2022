@@ -19,9 +19,9 @@
 }
 
 .schedule {
-  height: 3vh;
+  height: 4vh;
   position: absolute;
-  margin-top:-65%;
+  transform: translate(-20%, -1300%);
 }
 
 .top_link {
