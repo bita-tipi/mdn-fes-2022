@@ -19,10 +19,6 @@ function Top_back() {
                         <img src={top_link} className="under_link" />
                     </Link>
                     <img src={under_moji} className="under_moji" />
-                    <img
-                        src={under_bottom_moji}
-                        className="under_bottom_moji"
-                    />
                     <img src={hata} className="hata" />
                     <img src={under_obi} className="under_obi" />
                     <Link to={"/"}>

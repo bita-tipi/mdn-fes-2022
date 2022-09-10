@@ -15,14 +15,17 @@ import stamp9 from "../../assets/img/gun.svg";
 import "./stamp_rally.css";
 import Header from "../header/headermain";
 import Stamp from "./Stamp"
+import {hasVisited} from "../../index"
 
 const stamp = [
     [stamp1,stamp2,stamp3,stamp4,stamp5,stamp6,stamp7,stamp8,stamp9]
 ];
 
 function Stamp_rally() {
+    {hasVisited == true ?<p>a</p> : <p>ブラウザで利用してください</p>}
     const [currentStampCell, updateStampCell] = useState(0);
-
+for(let index = 0; index < 9; index++){
+}
 return (
     
         <body className="background_stamp">
