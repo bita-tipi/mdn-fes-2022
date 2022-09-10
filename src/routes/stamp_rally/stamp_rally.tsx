@@ -23,21 +23,6 @@ const stamp = [
 function Stamp_rally() {
     const [currentStampCell, updateStampCell] = useState(0);
 
-    function floorSelector() {
-        let stamp_cell = useState(false);
-        for (let index = 0; index < stamp[0].length; index++) {
-            const isSelected = currentStampCell === index;
-            stamp_cell.push(
-                <div className="floor_selector"> 
-                    <img src={stamp[Number(isSelected)][index]}
-                        alt=""
-                    />
-                </div>
-            );
-        }
-        return select;
-    }
-
 return (
     
         <body className="background_stamp">

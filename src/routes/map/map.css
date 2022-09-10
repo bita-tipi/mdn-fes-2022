@@ -35,7 +35,7 @@
     cursor: pointer;
     display: inline-block;
     padding: 0 5px 0 5px;
-    width: 20vw;
+    width: 17vw;
 }
 
 .floor_selector_container {
@@ -53,11 +53,11 @@
 
 .map_info_modal_img {
     max-height: 140px;
-    padding: 40px;
+    padding: 20px;
     margin-left:20px;
     margin-bottom: 5px;
     text-align: center;
-    
+    position:absolute;
 }
 
 .map-img{
@@ -78,22 +78,16 @@
 }
 
 .description {
-    height: 100px;
-    line-height: 45px;
-    width: 545px;
-    transform: translate(8%, 125%);
+    font-size:20px;
     font-family: vdl-logojrblack, sans-serif;
     font-weight: 900;
     font-style: normal;
     color: #656464;
+
 }
 
 .title_map {
-    width: 240px;
-    height: 100px;
-    line-height: 22px;
-    transform: translate(20%, -85%);
-    font-size: 20px;
+    font-size: 7px;
     font-family: vdl-logojrblack, sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -101,8 +95,6 @@
 }
 
 .className {
-    height: 10vh;
-    transform: translate(12%, 85%);
     font-size: 4vh;
     font-family: vdl-logojrblack, sans-serif;
     font-weight: 700;
@@ -111,8 +103,6 @@
 }
 
 .floor {
-    height: 10vh;
-    transform: translate(58%, 305%);
     font-size: 6vh;
     font-family: vdl-logojrblack, sans-serif;
     font-weight: 900;
