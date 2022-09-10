@@ -8,13 +8,15 @@ export default function MapInfoModal(
     ){
     return(
         <div>
-            <img src={infoBackgroundImage} className={"map_info_modal_img"}/>
             <div>
+            <img src={infoBackgroundImage} className={"map_info_modal_img"}/>
+            </div>
+        <div>
                 <p className="floor">{selectedFloor}</p>
                 <p className="className">{selectedClassData.className}</p>
                 <p className="title_map">{selectedClassData.title}</p>
                 <p className="description">{selectedClassData.description}</p>
-            </div>
+        </div>
         </div>
     );
     

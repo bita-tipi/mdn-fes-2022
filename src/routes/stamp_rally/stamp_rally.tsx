@@ -29,7 +29,6 @@ return (
             <header className="stamp_main">
                 <img src={back} className="stamp_back" />
                 <img src={memo} className="memo" />
-            <img src={stamp_camera} className="stamp_camera" />
             </header>
             <div>
             </div>
