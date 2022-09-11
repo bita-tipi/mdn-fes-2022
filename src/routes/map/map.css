@@ -43,6 +43,7 @@ p {
     display: inline-block;
     padding: 0 5px 0 5px;
     width: 17vw;
+    max-width: 100px;
 }
 
 .floor_selector_container {
@@ -51,11 +52,25 @@ p {
     text-align: center;
 }
 
+.floor_selector_text {
+    font-family: vdl-logojrblack, sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    fill: #656464;
+}
+
 .map_main {
     width: calc(100% - 40px);
     height: 30%;
     padding: 50px 20px 80px 20px;
     overflow: scroll;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.map_main::-webkit-scrollbar {  
+  display: none;
 }
 
 .map-img {
@@ -106,6 +121,7 @@ p {
 }
 
 .modal {
+    width: 100%;
     position: relative;
     z-index: 20;
 }

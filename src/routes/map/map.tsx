@@ -4,16 +4,6 @@ import map_list from "../../assets/img/map_list.svg";
 import "./map.css";
 import { Link } from "react-router-dom";
 import Header from "../header/headermain";
-import f1_none from "../../assets/img/floor_selectors/map_1_b.svg";
-import f1_hovered from "../../assets/img/floor_selectors/map_1_y.svg";
-import f2_none from "../../assets/img/floor_selectors/map_2_b.svg";
-import f2_hovered from "../../assets/img/floor_selectors/map_2_y.svg";
-import f3_none from "../../assets/img/floor_selectors/map_3_b.svg";
-import f3_hovered from "../../assets/img/floor_selectors/map_3_y.svg";
-import f4_none from "../../assets/img/floor_selectors/map_4_b.svg";
-import f4_hovered from "../../assets/img/floor_selectors/map_4_y.svg";
-import f5_none from "../../assets/img/floor_selectors/map_5_b.svg";
-import f5_hovered from "../../assets/img/floor_selectors/map_5_y.svg";
 import F1Map from "./maps/f1";
 import F2Map from "./maps/f2";
 import F3Map from "./maps/f3";
@@ -22,12 +12,7 @@ import F5Map from "./maps/f5";
 import MapInfoModal from "./modal";
 import { CLASS_DATA, F } from "../../assets/data/constants";
 
-const selectorStruct = [
-    [f1_none, f2_none, f3_none, f4_none,f5_none],
-    [f1_hovered, f2_hovered, f3_hovered, f4_hovered,f5_hovered],
-];
-
-const floorMaps = [F1Map(), F2Map(), F3Map(), F4Map(),F5Map()];
+const floorMaps = [F1Map(), F2Map(), F3Map(), F4Map(), F5Map()];
 
 function Map() {
     const [currentFloorIndex, updateFloorIndex] = useState(0);
@@ -39,16 +24,24 @@ function Map() {
 
     function floorSelector() {
         let selector = [];
-        for (let index = 0; index < selectorStruct[0].length; index++) {
+        const floorTexts = [
+            { text: "1F", n: 34 },
+            { text: "2F", n: 34 },
+            { text: "3F", n: 34 },
+            { text: "4F", n: 34 },
+            { text: "5,6F", n: 20 },
+        ]
+
+        for (let index = 0; index < floorTexts.length; index++) {
             const isSelected = currentFloorIndex === index;
             selector.push(
-                <div className="floor_selector">
-                    <img
-                        src={selectorStruct[Number(isSelected)][index]}
-                        onClick={() => clickHandler(index)}
-                        alt=""
-                    />
-                </div>
+                <svg className="floor_selector" onClick={() => clickHandler(index)} viewBox="0 0 137.25 39.81">
+                    <g>
+                        <rect y="8.54" width="137.25" height="31.27" rx="15.63" style={{ fill: isSelected ? '#e2bf57' : '#78bbcf' }} />
+                        <rect width="137.25" height="31.27" rx="15.63" style={{ fill: '#f3f9f8' }} />
+                        <text className="floor_selector_text" style={{ transform: `translate(${floorTexts[index].n}%, 25px)` }}>{floorTexts[index].text}</text>
+                    </g>
+                </svg>
             );
         }
         return selector;
