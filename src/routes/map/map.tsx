@@ -62,7 +62,7 @@ function Map() {
                 </div>
                 <div className="map_main">{floorMaps[currentFloorIndex]}</div>
                 <div className="map_info_modal_container">
-                    {MapInfoModal(F[1], CLASS_DATA.GRADE2.J2B)}
+                    {MapInfoModal(F[1], CLASS_DATA.GRADE1.G1C)}
                 </div>
             </div>
         </div>

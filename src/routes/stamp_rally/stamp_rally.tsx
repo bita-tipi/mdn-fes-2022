@@ -22,7 +22,6 @@ const stamp = [
 ];
 
 function Stamp_rally() {
-    {hasVisited == true ?<p>a</p> : <p>ブラウザで利用してください</p>}
     const [currentStampCell, updateStampCell] = useState(0);
 for(let index = 0; index < 9; index++){
 }
@@ -30,6 +29,7 @@ return (
     
         <body className="background_stamp">
             <header className="stamp_main">
+            {hasVisited ?<p>a</p> : <p>ブラウザで利用してください</p>}
                 <img src={back} className="stamp_back" />
                 <img src={memo} className="memo" />
             </header>
