@@ -2,86 +2,86 @@ import { classDataType, valueOf } from "./constants";
 
 const G1A: classDataType = {
     className: "G1A",
-    title: "",
-    description: "",
+    title: "ファイディング〇〇",
+    description: "ダンボールでできた迷路の中で隠された〇〇を探しちゃおう！",
 } as const;
 
 const G1B: classDataType = {
     className: "G1B",
-    title: "",
-    description: "",
+    title: "目に見えるものが真実とは限らない　何が本当で何がウソか　コンフィデンスカジノの世界へようこそ　〜G1Bがやってみた編",
+    description: "勝つか負けるかあなたの運次第。素敵な時間へようこそ。",
 } as const;
 
 const G1C: classDataType = {
     className: "G1C",
-    title: "",
-    description: "",
+    title: "STRONG GAL",
+    description: "G1C本気の最高傑作。ここなら誰でも”最強のギャル”になれる",
 } as const;
 
 const G1D: classDataType = {
     className: "G1D",
-    title: "",
-    description: "",
+    title: "アニメ感する写真映えスポット",
+    description: "ぜひ、あなたもアニメの世界に迷い込んでみませんか？ステキな写真がとれますよ✨",
 } as const;
 
 const G1E: classDataType = {
     className: "G1E",
-    title: "",
-    description: "",
+    title: "G1E THEATER",
+    description: "G1Eは、教室でパラパラ映画とオブジェをやります！",
 } as const;
 
 const G1F: classDataType = {
     className: "G1F",
-    title: "",
-    description: "",
+    title: "けんくんち。",
+    description: "文房具などの景品をご用意してます！",
 } as const;
 
 const G1G: classDataType = {
     className: "G1G",
-    title: "",
-    description: "",
+    title: "タバコレ",
+    description: "タバコレとはパリコレ！運がいいとイケメンが歩いているかも！？",
 } as const;
 
 const G1H: classDataType = {
     className: "G1H",
-    title: "",
-    description: "",
+    title: "カジノ＆フォトスポット",
+    description: "本格的なカジノにオシャレなフォトスポットをやっています！",
 } as const;
 
 const G1I: classDataType = {
     className: "G1I",
-    title: "",
-    description: "",
+    title: "縁日からの脱出〜思い出は清水神社と共に〜",
+    description: "清水神社を舞台に、おみくじやミッションを用意しています！",
 } as const;
 
 const G1J: classDataType = {
     className: "G1J",
-    title: "",
-    description: "",
+    title: "Activity performance report",
+    description: "各部活の日頃の様子や試合を動画で流したり、展示したりします。",
 } as const;
 
 const T1A: classDataType = {
     className: "T1A",
-    title: "",
-    description: "",
+    title: "千と千尋の神隠しの世界",
+    description: "千尋になりきれるような景観になっているので誰でも楽しめます！",
 } as const;
 
 const T1B: classDataType = {
     className: "T1B",
-    title: "",
-    description: "",
+    title: "名電王",
+    description: "様々なクイズ用意して誰でも楽しめられるようになっています！！",
 } as const;
 
 const T1C: classDataType = {
     className: "T1C",
-    title: "",
-    description: "",
+    title: "遊★技★場",
+    description: "T1CT1Dの合同企画！「わははははは！ずっと俺のターン！」",
 } as const;
 
 const T1D: classDataType = {
     className: "T1D",
-    title: "",
-    description: "",
+    title: "まつり(いろいろ)",
+    description: "全員集合！！T1Dの祭りが始まるゾ",
 } as const;
 
 const GRADE1 = {
