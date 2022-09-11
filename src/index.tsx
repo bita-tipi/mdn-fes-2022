@@ -18,7 +18,7 @@ import Schedule from "./routes/schedule/schedule";
 import { Routes } from "react-router-dom";
 import { createRoot } from "react-dom/client";
 import { useCallback, useState } from 'react'
-import GRADE1 from "./assets/data/grade;
+import GRADE1 from "./assets/data/grade1";
 
 export const hasVisited = true
 const container = document.getElementById("root");
