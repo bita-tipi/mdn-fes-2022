@@ -12,8 +12,10 @@ export default function MapInfoModal(
             <img src={infoBackgroundImage} className={"map_info_modal_img"}/>
             </div>
         <div className="modal">
+            <div className="F_C">
                 <p className="floor">{selectedFloor}</p>
                 <p className="className">{selectedClassData.className}</p>
+            </div>
                 <p className="title_map">{selectedClassData.title}</p>
                 <p className="description">{selectedClassData.description}</p>
         </div>
