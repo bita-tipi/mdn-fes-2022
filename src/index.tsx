@@ -19,8 +19,9 @@ import { Routes } from "react-router-dom";
 import { createRoot } from "react-dom/client";
 import { useCallback, useState } from 'react'
 import GRADE1 from "./assets/data/grade1";
+import { rootCertificates } from "tls";
 
-export const hasVisited = true
+export const has = {hasVisited:true}
 const container = document.getElementById("root");
 if (container) {
     const root = createRoot(container);
@@ -49,42 +50,42 @@ if (container) {
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 export const classTable = [
-    { classHash:"",className: "G1A" },
-    { classHash:"",className: "G1B" },
-    { classHash:"",className: "G1C" },
-    { classHash:"",className: "G1D" },
-    { classHash:"",className: "G1E" },
-    { classHash:"",className: "G1F" },
-    { classHash:"",className: "G1G" },
-    { classHash:"",className: "G1H" },
-    { classHash:"",className: "G1I" },
-    { classHash:"",className: "G1J" },
-    { classHash:"",className: "T1A" },
-    { classHash:"",className: "T1B" },
-    { classHash:"",className: "T1C" },
-    { classHash:"",className: "T1D" },
-    { classHash:"",className: "G2A" },
-    { classHash:"",className: "G2B" },
-    { classHash:"",className: "G2C" },
-    { classHash:"",className: "G2D" },
-    { classHash:"",className: "G2E" },
-    { classHash:"",className: "G2F" },
-    { classHash:"",className: "G2G" },
-    { classHash:"",className: "G2H" },
-    { classHash:"",className: "G2I" },
-    { classHash:"",className: "G2J" },
-    { classHash:"",className: "G2K" },
-    { classHash:"",className: "T2A" },
-    { classHash:"",className: "T2B" },
-    { classHash:"",className: "T2C" },
-    { classHash:"",className: "J2A" },
-    { classHash:"",className: "J2B" },
-    { classHash:"",className: "G3F" },
-    { classHash:"",className: "G3H" },
-    { classHash:"",className: "G3J" },
-    { classHash:"",className: "G3K" },
-    { classHash:"",className: "T3A" },
-    { classHash:"",className: "T3D" },
+    { classHash:"1",className: "G1A" },
+    { classHash:"1",className: "G1B" },
+    { classHash:"1",className: "G1C" },
+    { classHash:"1",className: "G1D" },
+    { classHash:"1",className: "G1E" },
+    { classHash:"1",className: "G1F" },
+    { classHash:"1",className: "G1G" },
+    { classHash:"1",className: "G1H" },
+    { classHash:"1",className: "G1I" },
+    { classHash:"1",className: "G1J" },
+    { classHash:"1",className: "T1A" },
+    { classHash:"1",className: "T1B" },
+    { classHash:"1",className: "T1C" },
+    { classHash:"1",className: "T1D" },
+    { classHash:"1",className: "G2A" },
+    { classHash:"1",className: "G2B" },
+    { classHash:"1",className: "G2C" },
+    { classHash:"1",className: "G2D" },
+    { classHash:"1",className: "G2E" },
+    { classHash:"1",className: "G2F" },
+    { classHash:"1",className: "G2G" },
+    { classHash:"1",className: "G2H" },
+    { classHash:"1",className: "G2I" },
+    { classHash:"1",className: "G2J" },
+    { classHash:"1",className: "G2K" },
+    { classHash:"1",className: "T2A" },
+    { classHash:"1",className: "T2B" },
+    { classHash:"1",className: "T2C" },
+    { classHash:"1",className: "J2A" },
+    { classHash:"1",className: "J2B" },
+    { classHash:"1",className: "G3F" },
+    { classHash:"1",className: "G3H" },
+    { classHash:"1",className: "G3J" },
+    { classHash:"1",className: "G3K" },
+    { classHash:"1",className: "T3A" },
+    { classHash:"1",className: "T3D" },
 ]
 
 export const stampTable = [

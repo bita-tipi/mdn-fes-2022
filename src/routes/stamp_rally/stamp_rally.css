@@ -28,3 +28,9 @@ margin-left:110px;
  display:flex;
  flex-flow:column;
 }
+.stamp{
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 5px 0 5px;
+  width: 17vw;
+}
