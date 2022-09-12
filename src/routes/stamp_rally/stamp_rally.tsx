@@ -27,15 +27,6 @@ const stamp = [
 
 function Stamp_rally() {
 
-    const a =() => {
-        const urlParams = useParams<{id:string}>()
-        console.log(urlParams.id)
-        return(
-            <div>
-                {urlParams.id}
-            </div>
-        )
-    }
     
     const c = [useParams]
     

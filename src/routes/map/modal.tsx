@@ -5,21 +5,22 @@ import infoBackgroundImage from "../../assets/img/info.svg";
 export default function MapInfoModal(
     selectedFloor: F,
     selectedClassData: classDataType
-    ){
-    return(
-        <div>
-            <div>
-            <img src={infoBackgroundImage} className={"map_info_modal_img"}/>
-            </div>
-        <div className="modal">
-            <div className="F_C">
-                <p className="floor">{selectedFloor}</p>
-                <p className="className">{selectedClassData.className}</p>
-            </div>
-                <p className="title_map">{selectedClassData.title}</p>
+) {
+    return (
+        <div className="modal_container">
+            <div className="hikidashi-tab"></div>
+            <div className="modal">
+                <div className="modal_header">
+                    <p className="floor">{selectedFloor}</p>
+                    <span className="delimiter"></span>
+                    <p className="class_name">{selectedClassData.className}</p>
+                </div>
+                <p className="title">{selectedClassData.title}</p>
                 <p className="description">{selectedClassData.description}</p>
-        </div>
+            </div>
+
+            <img className="map_info_modal_img" src={infoBackgroundImage} />
         </div>
     );
-    
+
 }
