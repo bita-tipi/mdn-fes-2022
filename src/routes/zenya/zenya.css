@@ -1,7 +1,7 @@
 .background_zenya{
     background-color: #32599f;
     min-height: 100vh;
-    height:450vh;
+    height:500vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +11,7 @@
     background-size: cover;
    }
 .title_zenya{
-    margin-top:-90px;
+    margin-top:-10px;
     width:300px;
 }
 .kouya_bar{
