@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import { useParams } from 'react-router-dom'
 import stamp_camera from "../../assets/img/stamp_camera.svg";
 import back from "../../assets/img/background_stamp.svg";
 import memo from "../../assets/img/stamp_memo.svg";
@@ -16,64 +15,28 @@ import stamp9 from "../../assets/img/gun.svg";
 import "./stamp_rally.css";
 import Header from "../header/headermain";
 import Stamp from "./Stamp"
-import {has} from "../../index"
-import {classTable} from "../../index"
-import {stampTable} from "../../index"
-
 
 const stamp = [
     [stamp1,stamp2,stamp3,stamp4,stamp5,stamp6,stamp7,stamp8,stamp9]
 ];
 
 function Stamp_rally() {
-
-    
-    const c = [useParams]
-    
-    const classHash =() => {
-        return(
-            <React.Fragment>
-            {stampTable.map((item)=>{
-                return(
-                    <div>
-                        <p></p>
-                    </div>
-                )
-            
-            })}
-            </React.Fragment>
-        )
-    }
-
-    localStorage.getItem('StampIndex')
-
-    const stampCell = useState(false)
-
     const [currentStampCell, updateStampCell] = useState(0);
 
-for(let index = 0; index < 9; index++){
-    const isSelected = currentStampCell === index;
-    {stampCell[index] 
-        ?   <div className="stamp">
-
-            <img src={stamp[Number(isSelected)][index]} />
-
-            </div> 
-        :<></>}
-
-    {(index+1)%3==3
-        ? <br />
-        :<></>
+    function floorSelector() {
+        let stamp_cell = useState(false);
+        for (let index = 0; index < stamp[0].length; index++) {
+            const isSelected = currentStampCell === index;
+        }
     }
-}
 
 return (
     
         <body className="background_stamp">
             <header className="stamp_main">
-            {has ?<p>正常です</p> : <p>ブラウザで利用してください</p>}
                 <img src={back} className="stamp_back" />
                 <img src={memo} className="memo" />
+            <img src={stamp_camera} className="stamp_camera" />
             </header>
             <div>
             </div>

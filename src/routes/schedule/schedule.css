@@ -1,7 +1,7 @@
 .background_schedule{
     background-color: rgb(187, 225, 231);
-    min-height: 100vh;
-    height:400vh;
+    min-height: 50vh;
+    height:100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,27 +11,16 @@
     background-size: cover;
 }
 
-.main_bar{
-    height:350vh;
-    transform: translate(37%,1%);
-}
-.side_bar{
-    height:150vh;
-    transform: translate(87%,-141%);
-}
-.time_bar{
-    height:365vh;
-    transform: translate(-4300%,1%);
-}
-.time{
-    height:350vh;
-    transform: translate(-470%,-3%);
+.schedule_bar{
+    width:200px;
 }
 .schedule{
     display: flex;
-    
+    flex-flow: column;
+    text-align: center;
+    margin: auto;
 }
 title{
-    height:350vh;
-    transform: translate(37%,1%);
+    padding-bottom:10px;
+    width:200px;
 }
