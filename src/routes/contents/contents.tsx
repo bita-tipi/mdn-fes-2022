@@ -3,7 +3,7 @@ import contents from "../../assets/img/contents_tyui.svg";
 import contents2 from "../../assets/img/contents_map.svg";
 import contents3 from "../../assets/img/contents_event.svg";
 import contents4 from "../../assets/img/contents_theme.svg";
-import contents5 from "../../assets/img/contents_zenya.svg";
+import contents5 from "../../assets/img/contents_kouya.svg";
 import contents6 from "../../assets/img/contents_koutyou.svg";
 import contents7 from "../../assets/img/contents_stamp.svg";
 import contents8 from "../../assets/img/contents.svg";
