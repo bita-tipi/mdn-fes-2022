@@ -73,12 +73,7 @@
 <line class="cls-3" x1="377.5" y1="1.5" x2="377.5" y2="25.12"/>
 <line class="cls-3" x1="380.62" y1="1.5" x2="380.62" y2="25.12"/>
 <line class="cls-3" x1="355.49" y1="13.25" x2="383.74" y2="13.25"/>
-<rect class="cls-4" x="182.43" y="1.45" width="81.75" height="23.72"/>
-<rect class="cls-5" x="91.22" y="1.45" width="11.91" height="11.86"/>
-<rect class="cls-5" x="91.22" y="13.31" width="11.91" height="11.86"/>
-<rect class="cls-5" x="103.13" y="1.45" width="79.3" height="23.72"/>
-<rect class="cls-6" x="321.43" y="1.45" width="21.78" height="23.72"/>
-<rect class="cls-7" x="304.71" y="1.45" width="16.72" height="23.72"/>
+
 <circle class="cls-8" cx="331.91" cy="9.62" r="2.02"/>
 <rect class="cls-8" x="329.89" y="12.29" width="4.04" height="6.85" rx="0.89"/>
 <circle class="cls-8" cx="312.67" cy="9.34" r="2.02"/>
@@ -145,7 +140,7 @@
 <rect class="cls-5" x="383.06" y="204.4" width="14.89" height="45.09"/>
 <rect class="cls-5" x="312.38" y="204.4" width="70.67" height="45.09"/>
 <rect class="cls-12" x="263.49" y="204.4" width="48.89" height="45.09"/>
-<rect class="cls-11" x="214.6" y="204.4" width="48.89" height="45.09"/>
+
 <rect class="cls-18" x="175.38" y="204.4" width="39.22" height="45.09"/>
 <rect class="cls-5" x="102.27" y="204.4" width="73.12" height="45.09"/>
 <rect class="cls-5" x="43.24" y="204.4" width="59.03" height="45.09"/>

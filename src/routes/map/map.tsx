@@ -15,7 +15,7 @@ import { CLASS_DATA, F } from "../../assets/data/constants";
 const floorMaps = [F1Map(), F2Map(), F3Map(), F4Map(), F5Map()];
 
 function Map() {
-    const [currentFloorIndex, updateFloorIndex] = useState(0);
+    const [currentFloorIndex, updateFloorIndex] = useState(4);
 
     function clickHandler(index: number) {
         updateFloorIndex(index);
