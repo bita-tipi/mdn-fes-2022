@@ -1,57 +1,55 @@
 .top_container {
-  background-image: url("/src/assets/img/top_back.svg");
-  min-height: 100vh;
-  height:100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 41% 50%;
+    background-image: url("/src/assets/img/top_back.svg");
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 41% 50%;
 }
 
 .top_center {
-  height:60vh;
-  min-height:50vh;
+    height: 60vh;
+    min-height: 50vh;
 }
 
 .schedule {
-  height: 4vh;
-  position: absolute;
-  transform: translate(-20%, -1300%);
+    height: 4vh;
+    position: absolute;
+    transform: translate(-20%, -1300%);
 }
 
 .top_link {
-  height:8vh;
-  transform: translate(-115%, 250%);
-  position: absolute;
-  width:40vh;
+    height: 8vh;
+    transform: translate(-115%, 250%);
+    position: absolute;
+    width: 40vh;
 }
-
-
 
 .obi {
-  height: 4vh;
-  max-width: 100%;
-  position: absolute;
-  bottom:10%;
-  transform: translate(-100%, 0%);
-  overflow: hidden;
+    height: 4vh;
+    max-width: 100%;
+    position: absolute;
+    bottom: 10%;
+    transform: translate(-100%, 0%);
+    overflow: hidden;
 }
 
-.top_moji{
-  height:8vh;
-  top:20%;
-  position: absolute;
-  transform: translate(-140%, 0%);
+.top_moji {
+    height: 8vh;
+    top: 20%;
+    position: absolute;
+    transform: translate(-140%, 0%);
 }
 
-.bottom_moji{
-  height:6vh;
-  bottom:10%;
-  position: absolute;
-  transform: translate(-180%, 0%);
+.bottom_moji {
+    height: 6vh;
+    bottom: 10%;
+    position: absolute;
+    transform: translate(-180%, 0%);
 }

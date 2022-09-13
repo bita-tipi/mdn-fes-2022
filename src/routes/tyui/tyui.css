@@ -1,4 +1,4 @@
-.background_tyui{
+.background_tyui {
     background-color: rgb(187, 225, 231);
     min-height: 1000px;
     height: 1000px;
@@ -7,15 +7,15 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    background-repeat:repeat;
-    background-size:contain;
-   }
-   .kanban{
-    padding-top:5px;
-    width:350px;
-   }
-   .tyui{
+    background-repeat: repeat;
+    background-size: contain;
+}
+.kanban {
+    padding-top: 5px;
+    width: 350px;
+}
+.tyui {
     display: flex;
     flex-flow: column;
     text-align: center;
-   }
+}

@@ -6,14 +6,14 @@ import header_main from "../../assets/img/header_main.png";
 import menu from "../../assets/img/home_menu.svg";
 import { useNavigate, useLocation } from "react-router-dom";
 
-const shouldHideHeaderRouterList = ["/"];
+const shouldHideHeaderRouterList = ["/", "/top_back"];
 
 export default function Header() {
     const navigate = useNavigate();
     const router = useLocation();
 
-    const shouldHideHeader = shouldHideHeaderRouterList.every(
-        (val) => val === router.pathname
+    const shouldHideHeader = shouldHideHeaderRouterList.some(
+        (val) => val === router.pathname,
     );
     const shouldMakeGoldenHeader = router.pathname === "/koutyou";
 
@@ -28,10 +28,11 @@ export default function Header() {
                     src={backbottun}
                     onClick={() => navigate(-1)}
                     className="back_button"
+                    alt=""
                 />
-                <img src={header_main} className="header_main" />
+                <img src={header_main} className="header_main" alt="" />
                 <Link to={"/"}>
-                    <img src={menu} className="menu" />
+                    <img src={menu} className="menu" alt="" />
                 </Link>
             </div>
         </header>

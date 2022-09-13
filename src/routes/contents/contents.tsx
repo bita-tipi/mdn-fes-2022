@@ -15,27 +15,59 @@ function Contents() {
     return (
         <div className="background">
             <header className="contents-container">
-                <img src={contents3} className="contents-event" />
+                <img
+                    src={contents3}
+                    className="contents-event"
+                    alt="contents-event"
+                />
                 <Link to={"/map"}>
-                    <img src={contents2} className="router-button" />
+                    <img
+                        src={contents2}
+                        className="router-button"
+                        alt="router-button"
+                    />
                 </Link>
                 <Link to={`/theme`}>
-                    <img src={contents4} className="router-button" />
+                    <img
+                        src={contents4}
+                        className="router-button"
+                        alt="router-button"
+                    />
                 </Link>
                 <Link to={"/tyui"}>
-                    <img src={contents} className="router-button" />
+                    <img
+                        src={contents}
+                        className="router-button"
+                        alt="router-button"
+                    />
                 </Link>
                 <Link to={`/zenya`}>
-                    <img src={contents5} className="router-button" />
+                    <img
+                        src={contents5}
+                        className="router-button"
+                        alt="router-button"
+                    />
                 </Link>
                 <Link to={`/koutyou`}>
-                    <img src={contents6} className="router-button" />
+                    <img
+                        src={contents6}
+                        className="router-button"
+                        alt="router-button"
+                    />
                 </Link>
                 <Link to={`/stamp_rally`}>
-                    <img src={contents7} className="router-button" />
+                    <img
+                        src={contents7}
+                        className="router-button"
+                        alt="router-button"
+                    />
                 </Link>
                 <Link to={`/schedule`}>
-                    <img src={contents8} className="router-button" />
+                    <img
+                        src={contents8}
+                        className="router-button"
+                        alt="router-button"
+                    />
                 </Link>
             </header>
         </div>

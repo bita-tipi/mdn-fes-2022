@@ -30,18 +30,40 @@ function Map() {
             { text: "3F", n: 34 },
             { text: "4F", n: 34 },
             { text: "5,6F", n: 20 },
-        ]
+        ];
 
         for (let index = 0; index < floorTexts.length; index++) {
             const isSelected = currentFloorIndex === index;
             selector.push(
-                <svg className="floor_selector" onClick={() => clickHandler(index)} viewBox="0 0 137.25 39.81">
+                <svg
+                    className="floor_selector"
+                    onClick={() => clickHandler(index)}
+                    viewBox="0 0 137.25 39.81"
+                >
                     <g>
-                        <rect y="8.54" width="137.25" height="31.27" rx="15.63" style={{ fill: isSelected ? '#e2bf57' : '#78bbcf' }} />
-                        <rect width="137.25" height="31.27" rx="15.63" style={{ fill: '#f3f9f8' }} />
-                        <text className="floor_selector_text" style={{ transform: `translate(${floorTexts[index].n}%, 25px)` }}>{floorTexts[index].text}</text>
+                        <rect
+                            y="8.54"
+                            width="137.25"
+                            height="31.27"
+                            rx="15.63"
+                            style={{ fill: isSelected ? "#e2bf57" : "#78bbcf" }}
+                        />
+                        <rect
+                            width="137.25"
+                            height="31.27"
+                            rx="15.63"
+                            style={{ fill: "#f3f9f8" }}
+                        />
+                        <text
+                            className="floor_selector_text"
+                            style={{
+                                transform: `translate(${floorTexts[index].n}%, 25px)`,
+                            }}
+                        >
+                            {floorTexts[index].text}
+                        </text>
                     </g>
-                </svg>
+                </svg>,
             );
         }
         return selector;

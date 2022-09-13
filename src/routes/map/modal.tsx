@@ -4,7 +4,7 @@ import infoBackgroundImage from "../../assets/img/info.svg";
 
 export default function MapInfoModal(
     selectedFloor: F,
-    selectedClassData: classDataType
+    selectedClassData: classDataType,
 ) {
     return (
         <div className="modal_container">
@@ -19,8 +19,11 @@ export default function MapInfoModal(
                 <p className="description">{selectedClassData.description}</p>
             </div>
 
-            <img className="map_info_modal_img" src={infoBackgroundImage} />
+            <img
+                className="map_info_modal_img"
+                src={infoBackgroundImage}
+                alt=""
+            />
         </div>
     );
-
 }

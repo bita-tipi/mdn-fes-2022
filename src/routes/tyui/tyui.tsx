@@ -6,9 +6,9 @@ import Header from "../header/headermain";
 function Tyui() {
     return (
         <div>
-        <header className="background_tyui">
-            <div className="tyui">
-                    <img src={kanban} className="kanban"/>
+            <header className="background_tyui">
+                <div className="tyui">
+                    <img src={kanban} className="kanban" alt="kanban" />
                 </div>
             </header>
         </div>

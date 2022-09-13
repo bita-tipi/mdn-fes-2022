@@ -9,30 +9,28 @@ import stamp8 from "../../assets/img/gun.svg";
 import stamp9 from "../../assets/img/gun.svg";
 import "./stamp_rally.css";
 
-const stampA:boolean=true;
-const stampB:boolean=false;
-const stampC:boolean=false;
-const stampD:boolean=false;
-const stampE:boolean=false;
-const stampF:boolean=false;
-const stampG:boolean=false;
-const stampH:boolean=false;
-const stampI:boolean=false;
-
+const stampA = true;
+const stampB = false;
+const stampC = false;
+const stampD = false;
+const stampE = false;
+const stampF = false;
+const stampG = false;
+const stampH = false;
+const stampI = false;
 
 export default function Stamp() {
-
     return (
-            <div>
-                {stampA==true ? <img src={stamp1}></img> : <p></p>}
-                {stampB==true ? <img src={stamp2}></img>: <p></p>}
-                {stampC==true ? <img src={stamp3}></img>: <p></p>}
-                {stampD==true ? <img src={stamp4}></img>: <p></p>}
-                {stampE==true ? <img src={stamp5}></img>: <p></p>}
-                {stampF==true ? <img src={stamp6}></img>: <p></p>}
-                {stampG==true ? <img src={stamp7}></img>: <p></p>}
-                {stampH==true ? <img src={stamp8}></img>: <p></p>}
-                {stampI==true ? <img src={stamp9}></img>: <p></p>}
-            </div>
+        <div>
+            {stampA ? <img src={stamp1} alt="stamp1"></img> : <></>}
+            {stampB ? <img src={stamp2} alt="stamp2"></img> : <></>}
+            {stampC ? <img src={stamp3} alt="stamp3"></img> : <></>}
+            {stampD ? <img src={stamp4} alt="stamp4"></img> : <></>}
+            {stampE ? <img src={stamp5} alt="stamp5"></img> : <></>}
+            {stampF ? <img src={stamp6} alt="stamp6"></img> : <></>}
+            {stampG ? <img src={stamp7} alt="stamp7"></img> : <></>}
+            {stampH ? <img src={stamp8} alt="stamp8"></img> : <></>}
+            {stampI ? <img src={stamp9} alt="stamp9"></img> : <></>}
+        </div>
     );
 }

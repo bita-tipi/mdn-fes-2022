@@ -1,22 +1,22 @@
-.main{
+.main {
     position: absolute;
-      transform: translate(-50%,-150%);
-      min-height: 8vh;
-      height: 23vh;
+    transform: translate(-50%, -150%);
+    min-height: 8vh;
+    height: 23vh;
 }
-.midasi{
+.midasi {
     position: absolute;
-      transform: translate(-50%,-480%);
-      min-height: 8vh;
-      height: 10vh;
+    transform: translate(-50%, -480%);
+    min-height: 8vh;
+    height: 10vh;
 }
-.MV{
+.MV {
     position: absolute;
-      transform: translate(-50%,-30%);
-      min-height: 8vh;
-      height: 25vh;
+    transform: translate(-50%, -30%);
+    min-height: 8vh;
+    height: 25vh;
 }
-.background_theme{
+.background_theme {
     background-color: rgb(187, 225, 231);
     min-height: 100vh;
     display: flex;
@@ -26,4 +26,4 @@
     font-size: calc(10px + 2vmin);
     background-repeat: no-repeat;
     background-size: cover;
-   }
+}
