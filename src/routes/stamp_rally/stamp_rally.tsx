@@ -3,6 +3,7 @@ import { useState } from "react";
 import stamp_camera from "../../assets/img/stamp_camera.svg";
 import back from "../../assets/img/background_stamp.svg";
 import memo from "../../assets/img/stamp_memo.svg";
+import bingo from "../../assets/img/stamp_setumei.svg"
 import stamp1 from "../../assets/img/AMP.svg";
 import stamp2 from "../../assets/img/earth.svg";
 import stamp3 from "../../assets/img/gun.svg";
@@ -29,8 +30,7 @@ return (
         <body className="background_stamp">
             <header className="stamp_main">
                 <img src={back} className="stamp_back" />
-                <img src={memo} className="memo" />
-            <img src={stamp_camera} className="stamp_camera" />
+            <img src={bingo} className="bingo"/>
             </header>
             <div>
             </div>
