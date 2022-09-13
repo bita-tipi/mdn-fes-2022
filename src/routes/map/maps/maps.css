@@ -35,6 +35,51 @@
     stroke: #5E5C5C;
     stroke-linejoin: round;
 }
+.cls-1{fill:#fef9e4;}
+.cls-2,
+.cls-5{fill:#f3fafe;}
+.cls-10,
+.cls-11,
+.cls-12,
+.cls-13,
+.cls-18,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-9{stroke:#5e5c5c;}
+.cls-13,
+.cls-18,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7{stroke-linejoin:round;}
+.cls-2,
+.cls-3{stroke-width:1px;}
+.cls-19,
+.cls-3{fill:#fff;}
+.cls-18,
+.cls-4{fill:#bbe1e7;}
+.cls-4{stroke-width:0.94px;}
+.cls-6{fill:#77bde9;}
+.cls-7{fill:#f2bfd7;}
+.cls-8{fill:#f3f9f8;}
+.cls-9{fill:#69bd83;}
+.cls-10,
+.cls-12,
+.cls-9{stroke-miterlimit:10;}
+.cls-10{fill:#e3776a;}
+.cls-11{fill:#b2e0f8;}
+.cls-12{fill:#666;}
+.cls-13{fill:none;stroke-width:3px;}
+.cls-14{fill:#4d4e4f;}
+.cls-15{fill:#8ab7d6;}
+.cls-16{fill:#c35f5a;}
+.cls-17{fill:#46976c;}
 
 .map2_7 {
     fill: #8AB7D6;
@@ -109,3 +154,5 @@
     stroke-width: 3;
     stroke-linejoin: round;
 }
+
+
