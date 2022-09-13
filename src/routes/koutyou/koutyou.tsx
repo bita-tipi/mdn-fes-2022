@@ -7,8 +7,12 @@ function Koutyou() {
     return (
         <body className="background_koutyou">
             <div className="Kty">
-                <img src={syasin} className="syasin" />
-                <img src={setumei} className="koutyousetumei" />
+                <img src={syasin} className="syasin" alt="syasin" />
+                <img
+                    src={setumei}
+                    className="koutyousetumei"
+                    alt="koutyousetumei"
+                />
             </div>
         </body>
     );

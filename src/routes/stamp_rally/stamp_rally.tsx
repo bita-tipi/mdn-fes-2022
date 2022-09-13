@@ -3,7 +3,7 @@ import { useState } from "react";
 import stamp_camera from "../../assets/img/stamp_camera.svg";
 import back from "../../assets/img/background_stamp.svg";
 import memo from "../../assets/img/stamp_memo.svg";
-import bingo from "../../assets/img/stamp_setumei.svg"
+import bingo from "../../assets/img/stamp_setumei.svg";
 import stamp1 from "../../assets/img/AMP.svg";
 import stamp2 from "../../assets/img/earth.svg";
 import stamp3 from "../../assets/img/gun.svg";
@@ -15,25 +15,22 @@ import stamp8 from "../../assets/img/gun.svg";
 import stamp9 from "../../assets/img/gun.svg";
 import "./stamp_rally.css";
 import Header from "../header/headermain";
-import Stamp from "./Stamp"
+import Stamp from "./Stamp";
 
 const stamp = [
-    [stamp1,stamp2,stamp3,stamp4,stamp5,stamp6,stamp7,stamp8,stamp9]
+    [stamp1, stamp2, stamp3, stamp4, stamp5, stamp6, stamp7, stamp8, stamp9],
 ];
 
 function Stamp_rally() {
     const [currentStampCell, updateStampCell] = useState(0);
 
-
-return (
-    
+    return (
         <body className="background_stamp">
             <header className="stamp_main">
-                <img src={back} className="stamp_back" />
-            <img src={bingo} className="bingo"/>
+                <img src={back} className="stamp_back" alt="stamp_back" />
+                <img src={bingo} className="bingo" alt="bingo" />
             </header>
-            <div>
-            </div>
+            <div></div>
         </body>
     );
 }

@@ -9,9 +9,9 @@ function Theme() {
     return (
         <body className="background_theme">
             <div>
-                <img src={midasi} className="midasi" />
-                <img src={main} className="main" />
-                <img src={MV} className="MV" />
+                <img src={midasi} className="midasi" alt="midasi" />
+                <img src={main} className="main" alt="main" />
+                <img src={MV} className="MV" alt="MV" />
             </div>
         </body>
     );

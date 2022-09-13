@@ -1,7 +1,7 @@
-.background_stamp{
+.background_stamp {
     background-color: rgb(187, 225, 231);
     min-height: 110vh;
-    width:100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,33 +9,33 @@
     font-size: calc(10px + 2vmin);
     background-repeat: no-repeat;
     background-size: cover;
-   }
+}
 
-.stamp_back{
-width:300px;
-margin-top:10px;
-padding-left:30px;
-  }
-.memo{
-padding-top:10px;
-width:300px;
-margin-bottom: 10px;
+.stamp_back {
+    width: 300px;
+    margin-top: 10px;
+    padding-left: 30px;
 }
-.stamp_camera{
-width:80px;
-margin-left:110px;
+.memo {
+    padding-top: 10px;
+    width: 300px;
+    margin-bottom: 10px;
 }
-.stamp_main{
- display:flex;
- flex-flow:column;
+.stamp_camera {
+    width: 80px;
+    margin-left: 110px;
 }
-.stamp{
-  cursor: pointer;
-  display: inline-block;
-  padding: 0 5px 0 5px;
-  width: 17vw;
+.stamp_main {
+    display: flex;
+    flex-flow: column;
 }
-.bingo{
-  width:300px;
-  padding:30px;
+.stamp {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 5px 0 5px;
+    width: 17vw;
+}
+.bingo {
+    width: 300px;
+    padding: 30px;
 }

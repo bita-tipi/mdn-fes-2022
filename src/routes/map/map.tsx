@@ -1,25 +1,63 @@
 import React from "react";
-import { useState } from "react";
-import map_list from "../../assets/img/map_list.svg";
 import "./map.css";
-import { Link } from "react-router-dom";
-import Header from "../header/headermain";
 import F1Map from "./maps/f1";
 import F2Map from "./maps/f2";
 import F3Map from "./maps/f3";
 import F4Map from "./maps/f4";
 import F5Map from "./maps/f5";
 import MapInfoModal from "./modal";
-import { CLASS_DATA, F } from "../../assets/data/constants";
-
-const floorMaps = [F1Map(), F2Map(), F3Map(), F4Map(), F5Map()];
+import { assert, classDataType } from "../../assets/data/constants";
+import { useRecoilState, useSetRecoilState } from "recoil";
+import { modalDataState, floorIndexState } from "../../model/atom";
 
 function Map() {
-    const [currentFloorIndex, updateFloorIndex] = useState(4);
+    //
+    //
+    // reactHooks definition; do not remove
+
+    //
+    // `floorIndexState`
+    //          └ getter -> selectedFloorIndex
+    //          └ setter -> updateFloorIndex
+    //
+    const [selectedFloorIndex, updateFloorIndex] =
+        useRecoilState(floorIndexState);
+
+    // modalDataStatusのスナップショット
+    const modalDataStateSnap = useSetRecoilState(modalDataState);
+
+    /**
+     * ## updater (setter) of `ModalDataState`
+     * @param classData  `classDataType`
+     * @param floorIndex optional: `number? (0 - 5)` ?? `selectedFloorIndex`
+     */
+    function updateModalData(classData: classDataType, floorIndex?: number) {
+        if (floorIndex !== undefined) {
+            assert(
+                Number.isInteger(floorIndex) &&
+                    floorIndex >= 0 &&
+                    floorIndex <= 5,
+            );
+        }
+
+        modalDataStateSnap((_) => ({
+            classData: classData,
+
+            // `floorIndex`のオーバーライドがなければ, (floorIndex === undefined)
+            // 選択されている階を使用する
+            floorIndex: floorIndex ?? selectedFloorIndex,
+        }));
+    }
+    // -- definition end --
+
+    function floorMaps() {
+        const mapsElement = [F1Map, F2Map, F3Map, F4Map, F5Map];
+        return mapsElement[selectedFloorIndex](updateModalData);
+    }
 
     function clickHandler(index: number) {
+        assert(Number.isInteger(index) && index >= 0 && index <= 4);
         updateFloorIndex(index);
-        console.log(`, ${index + 1}F`);
     }
 
     function floorSelector() {
@@ -30,18 +68,40 @@ function Map() {
             { text: "3F", n: 34 },
             { text: "4F", n: 34 },
             { text: "5,6F", n: 20 },
-        ]
+        ];
 
         for (let index = 0; index < floorTexts.length; index++) {
-            const isSelected = currentFloorIndex === index;
+            const isSelected = selectedFloorIndex === index;
             selector.push(
-                <svg className="floor_selector" onClick={() => clickHandler(index)} viewBox="0 0 137.25 39.81">
+                <svg
+                    className="floor_selector"
+                    onClick={() => clickHandler(index)}
+                    viewBox="0 0 137.25 39.81"
+                >
                     <g>
-                        <rect y="8.54" width="137.25" height="31.27" rx="15.63" style={{ fill: isSelected ? '#e2bf57' : '#78bbcf' }} />
-                        <rect width="137.25" height="31.27" rx="15.63" style={{ fill: '#f3f9f8' }} />
-                        <text className="floor_selector_text" style={{ transform: `translate(${floorTexts[index].n}%, 25px)` }}>{floorTexts[index].text}</text>
+                        <rect
+                            y="8.54"
+                            width="137.25"
+                            height="31.27"
+                            rx="15.63"
+                            style={{ fill: isSelected ? "#e2bf57" : "#78bbcf" }}
+                        />
+                        <rect
+                            width="137.25"
+                            height="31.27"
+                            rx="15.63"
+                            style={{ fill: "#f3f9f8" }}
+                        />
+                        <text
+                            className="floor_selector_text"
+                            style={{
+                                transform: `translate(${floorTexts[index].n}%, 25px)`,
+                            }}
+                        >
+                            {floorTexts[index].text}
+                        </text>
                     </g>
-                </svg>
+                </svg>,
             );
         }
         return selector;
@@ -53,10 +113,8 @@ function Map() {
                 <div className="floor_selector_container">
                     {floorSelector()}
                 </div>
-                <div className="map_main">{floorMaps[currentFloorIndex]}</div>
-                <div className="map_info_modal_container">
-                    {MapInfoModal(F[1], CLASS_DATA.GRADE1.G1B)}
-                </div>
+                <div className="map_main">{floorMaps()}</div>
+                <div className="map_info_modal_container">{MapInfoModal()}</div>
             </div>
         </div>
     );

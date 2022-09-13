@@ -3,41 +3,45 @@
 }
 
 .map2_0 {
-    fill: #FEF9E4;
+    fill: #fef9e4;
 }
 
 .map2_1 {
     fill: #666666;
-    stroke: #5E5C5C;
+    stroke: #5e5c5c;
     stroke-linejoin: round;
 }
 
 .map2_2 {
-    fill: #4D4E4F;
+    fill: #4d4e4f;
 }
 
 .map2_3 {
-    fill: #F3F9F8;
+    fill: #f3f9f8;
 }
 
 .map2_4 {
-    fill: #F7EA67;
-    stroke: #5E5C5C;
+    fill: #f7ea67;
+    stroke: #5e5c5c;
     stroke-linejoin: round;
 }
 
 .map2_5 {
-    fill: #DBCC5C;
+    fill: #dbcc5c;
 }
 
 .map2_6 {
-    fill: #B2E0F8;
-    stroke: #5E5C5C;
+    fill: #b2e0f8;
+    stroke: #5e5c5c;
     stroke-linejoin: round;
 }
-.cls-1{fill:#fef9e4;}
+.cls-1 {
+    fill: #fef9e4;
+}
 .cls-2,
-.cls-5{fill:#f3fafe;}
+.cls-5 {
+    fill: #f3fafe;
+}
 .cls-10,
 .cls-11,
 .cls-12,
@@ -49,7 +53,9 @@
 .cls-5,
 .cls-6,
 .cls-7,
-.cls-9{stroke:#5e5c5c;}
+.cls-9 {
+    stroke: #5e5c5c;
+}
 .cls-13,
 .cls-18,
 .cls-2,
@@ -57,102 +63,137 @@
 .cls-4,
 .cls-5,
 .cls-6,
-.cls-7{stroke-linejoin:round;}
+.cls-7 {
+    stroke-linejoin: round;
+}
 .cls-2,
-.cls-3{stroke-width:1px;}
+.cls-3 {
+    stroke-width: 1px;
+}
 .cls-19,
-.cls-3{fill:#fff;}
+.cls-3 {
+    fill: #fff;
+}
 .cls-18,
-.cls-4{fill:#bbe1e7;}
-.cls-4{stroke-width:0.94px;}
-.cls-6{fill:#77bde9;}
-.cls-7{fill:#f2bfd7;}
-.cls-8{fill:#f3f9f8;}
-.cls-9{fill:#69bd83;}
+.cls-4 {
+    fill: #bbe1e7;
+}
+.cls-4 {
+    stroke-width: 0.94px;
+}
+.cls-6 {
+    fill: #77bde9;
+}
+.cls-7 {
+    fill: #f2bfd7;
+}
+.cls-8 {
+    fill: #f3f9f8;
+}
+.cls-9 {
+    fill: #69bd83;
+}
 .cls-10,
 .cls-12,
-.cls-9{stroke-miterlimit:10;}
-.cls-10{fill:#e3776a;}
-.cls-11{fill:#b2e0f8;}
-.cls-12{fill:#666;}
-.cls-13{fill:none;stroke-width:3px;}
-.cls-14{fill:#4d4e4f;}
-.cls-15{fill:#8ab7d6;}
-.cls-16{fill:#c35f5a;}
-.cls-17{fill:#46976c;}
+.cls-9 {
+    stroke-miterlimit: 10;
+}
+.cls-10 {
+    fill: #e3776a;
+}
+.cls-11 {
+    fill: #b2e0f8;
+}
+.cls-12 {
+    fill: #666;
+}
+.cls-13 {
+    fill: none;
+    stroke-width: 3px;
+}
+.cls-14 {
+    fill: #4d4e4f;
+}
+.cls-15 {
+    fill: #8ab7d6;
+}
+.cls-16 {
+    fill: #c35f5a;
+}
+.cls-17 {
+    fill: #46976c;
+}
 
 .map2_7 {
-    fill: #8AB7D6;
+    fill: #8ab7d6;
 }
 
 .map2_8 {
-    fill: #69BD83;
-    stroke: #5E5C5C;
+    fill: #69bd83;
+    stroke: #5e5c5c;
     stroke-linejoin: round;
 }
 
 .map2_9 {
-    fill: #46976C;
+    fill: #46976c;
 }
 
 .map2_10 {
-    fill: #E3776A;
-    stroke: #5E5C5C;
+    fill: #e3776a;
+    stroke: #5e5c5c;
     stroke-linejoin: round;
 }
 
 .map2_11 {
-    fill: #C35F5A;
+    fill: #c35f5a;
 }
 
 .map2_12 {
-    fill: #FFFFFF;
-    stroke: #5E5C5C;
+    fill: #ffffff;
+    stroke: #5e5c5c;
     stroke-linejoin: round;
 }
 
 .map2_13 {
-    fill: #F3F9F8;
-    stroke: #5E5C5C;
+    fill: #f3f9f8;
+    stroke: #5e5c5c;
     stroke-linejoin: round;
 }
 
 .map2_14 {
     fill: none;
-    stroke: #5E5C5C;
+    stroke: #5e5c5c;
     stroke-linejoin: round;
 }
 
 .map2_15 {
-    fill: #76B5DE;
-    stroke: #5E5C5C;
+    fill: #76b5de;
+    stroke: #5e5c5c;
     stroke-linejoin: round;
 }
 
 .map2_16 {
-    fill: #F2BFD7;
-    stroke: #5E5C5C;
+    fill: #f2bfd7;
+    stroke: #5e5c5c;
     stroke-linejoin: round;
 }
 
 .map2_17 {
-    fill: #BBE1E7;
-    stroke: #5E5C5C;
+    fill: #bbe1e7;
+    stroke: #5e5c5c;
 }
 
 .map2_18 {
     fill: none;
-    stroke: #5E5C5C;
+    stroke: #5e5c5c;
     stroke-width: 3;
     stroke-linecap: round;
     stroke-linejoin: round;
 }
 
 .map2_19 {
-    fill: #BBE1E7;
-    stroke: #5E5C5C;
+    fill: #bbe1e7;
+    stroke: #5e5c5c;
     stroke-width: 3;
     stroke-linejoin: round;
 }
-
-
