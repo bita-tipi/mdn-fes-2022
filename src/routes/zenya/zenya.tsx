@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../header/headermain";
 import "./zenya.css";
-import bar from "../../assets/img/kouya_bar2.svg";
+import bar from "../../assets/img/kouya_bar.svg";
 import title from "../../assets/img/zenya_title.svg";
 
 function Zenya() {
