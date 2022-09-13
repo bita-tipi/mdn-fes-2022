@@ -14,9 +14,11 @@ const F = {
     1: "1F",
     2: "2F",
     3: "3F",
-    4: "4F"
+    4: "4F",
+    5: "5F",
+    6: "6F",
 } as const;
-type F = valueOf<typeof F>
+type F = valueOf<typeof F>;
 
 type classDataType = {
     className: string;

@@ -1,6 +1,8 @@
-import F5 from "../../../assets/img/maps/map_F5.svg";
+import { classDataType, CLASS_DATA } from "../../../assets/data/constants";
 
-export default function F5Map() {
+export default function F5Map(
+    updateModalData: (classData: classDataType, floorIndex?: number) => void,
+) {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400.13 251">
             <g id="レイヤー_2" data-name="レイヤー 2">
@@ -571,7 +573,11 @@ export default function F5Map() {
                 </g>
             </g>
 
-            <g id="G1C" className="btn" onClick={() => console.log("g3j")}>
+            <g
+                id="G1C"
+                className="btn"
+                onClick={() => updateModalData(CLASS_DATA.GRADE1.G1C)}
+            >
                 <rect
                     className="cls-9"
                     x="2.19"
@@ -601,7 +607,11 @@ export default function F5Map() {
                 />
             </g>
 
-            <g id="G1D" className="btn" onClick={() => console.log("g3j")}>
+            <g
+                id="G1D"
+                className="btn"
+                onClick={() => updateModalData(CLASS_DATA.GRADE1.G1D)}
+            >
                 <rect
                     className="cls-10"
                     x="47.25"
@@ -631,7 +641,11 @@ export default function F5Map() {
                 />
             </g>
 
-            <g id="G1E" className="btn" onClick={() => console.log("g3j")}>
+            <g
+                id="G1E"
+                className="btn"
+                onClick={() => updateModalData(CLASS_DATA.GRADE1.G1E)}
+            >
                 <rect
                     className="cls-11"
                     x="91.81"
@@ -661,7 +675,11 @@ export default function F5Map() {
                 />
             </g>
 
-            <g id="G1F" className="btn" onClick={() => console.log("g3j")}>
+            <g
+                id="G1F"
+                className="btn"
+                onClick={() => updateModalData(CLASS_DATA.GRADE1.G1F)}
+            >
                 <rect
                     className="cls-12"
                     x="136.01"
@@ -691,7 +709,12 @@ export default function F5Map() {
                 />
             </g>
 
-            <g id="G1A" className="btn" onClick={() => console.log("g3j")}>
+            <g
+                id="G1A"
+                className="btn"
+                // selectedIndexは 4 だが, 6Fに属するため, `floorIndex`を 5 でオーバーライドしている
+                onClick={() => updateModalData(CLASS_DATA.GRADE1.G1A, 5)}
+            >
                 <rect
                     className="cls-11"
                     x="214.6"
@@ -721,7 +744,12 @@ export default function F5Map() {
                 />
             </g>
 
-            <g id="G1B">
+            <g
+                id="G1B"
+                className="btn"
+                // selectedIndexは 4 だが, 6Fに属するため, `floorIndex`を 5 でオーバーライドしている
+                onClick={() => updateModalData(CLASS_DATA.GRADE1.G1B, 5)}
+            >
                 <rect
                     className="cls-12"
                     x="263.49"

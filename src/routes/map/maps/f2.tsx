@@ -1,4 +1,9 @@
-export default function F2Map() {
+import { classDataType, CLASS_DATA } from "../../../assets/data/constants";
+import "./maps.css";
+
+export default function F2Map(
+    updateModalData: (classData: classDataType) => void,
+) {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 442.7 251.1">
             <polygon
@@ -7,7 +12,11 @@ export default function F2Map() {
 	45.5,249.6 441.2,249.6 441.2,1.5 "
             />
 
-            <g id="g3j" className="btn" onClick={() => console.log("g3j")}>
+            <g
+                id="g3j"
+                className="btn"
+                onClick={() => updateModalData(CLASS_DATA.GRADE3.G3J)}
+            >
                 <rect
                     x="1.5"
                     y="1.5"
@@ -37,7 +46,11 @@ export default function F2Map() {
 			v-6.5h1.5C33.5,19.2,33.5,25.7,33.5,25.7z"
                 />
             </g>
-            <g id="g3i" className="btn" onClick={() => console.log("g3i")}>
+            <g
+                id="g3i"
+                className="btn"
+                onClick={() => updateModalData(CLASS_DATA.GRADE3.G3I)}
+            >
                 <rect
                     x="45.5"
                     y="1.5"
@@ -63,7 +76,11 @@ export default function F2Map() {
                 />
                 <path className="map2_3" d="M73.9,19.2h1.5v9.8h-1.5V19.2z" />
             </g>
-            <g id="g3h" className="btn" onClick={() => console.log("g3h")}>
+            <g
+                id="g3h"
+                className="btn"
+                onClick={() => updateModalData(CLASS_DATA.GRADE3.G3H)}
+            >
                 <rect
                     x="89.4"
                     y="1.5"
@@ -94,7 +111,11 @@ export default function F2Map() {
                     d="M123.2,28.9h-1.5v-4.4h-4v4.4h-1.5v-9.8h1.5v4h4v-4h1.5V28.9z"
                 />
             </g>
-            <g id="g1f" className="btn" onClick={() => console.log("g1f")}>
+            <g
+                id="g1f"
+                className="btn"
+                onClick={() => updateModalData(CLASS_DATA.GRADE1.G1F)}
+            >
                 <rect
                     x="133.4"
                     y="1.5"
@@ -122,7 +143,11 @@ export default function F2Map() {
                     d="M160.5,28.9v-9.8h5.1v1.2H162v3h3.4v1.2H162v4.3H160.5L160.5,28.9z"
                 />
             </g>
-            <g id="g1e" className="btn" onClick={() => console.log("g1e")}>
+            <g
+                id="g1e"
+                className="btn"
+                onClick={() => updateModalData(CLASS_DATA.GRADE1.G1E)}
+            >
                 <rect
                     x="177.4"
                     y="1.5"
@@ -149,7 +174,11 @@ export default function F2Map() {
                     d="M210.3,28.9h-5.3v-9.8h5.1v1.2h-3.6v2.8h3.4v1.2h-3.4v3.2h3.9L210.3,28.9L210.3,28.9z"
                 />
             </g>
-            <g id="g1d" className="btn" onClick={() => console.log("g1d")}>
+            <g
+                id="g1d"
+                className="btn"
+                onClick={() => updateModalData(CLASS_DATA.GRADE1.G1D)}
+            >
                 <rect
                     x="221.4"
                     y="1.5"
@@ -179,7 +208,11 @@ export default function F2Map() {
 			c0-2.4-1.2-3.6-3.3-3.6c-0.5,0-0.9,0-1.1,0.1L250.2,27.8L250.2,27.8z"
                 />
             </g>
-            <g id="g1c" className="btn" onClick={() => console.log("g1c")}>
+            <g
+                id="g1c"
+                className="btn"
+                onClick={() => updateModalData(CLASS_DATA.GRADE1.G1C)}
+            >
                 <rect
                     x="265.3"
                     y="1.5"
@@ -208,7 +241,11 @@ export default function F2Map() {
 			C299,27.5,299.2,28.6,299.2,28.6z"
                 />
             </g>
-            <g id="g1b" className="btn" onClick={() => console.log("g1b")}>
+            <g
+                id="g1b"
+                className="btn"
+                onClick={() => updateModalData(CLASS_DATA.GRADE1.G1B)}
+            >
                 <rect
                     x="309.3"
                     y="1.5"
@@ -238,7 +275,11 @@ export default function F2Map() {
 			c1.2,0,2.2-0.5,2.2-1.8s-1.1-1.8-2.3-1.8h-0.9C338.4,24.3,338.4,27.8,338.4,27.8z"
                 />
             </g>
-            <g id="t3d" className="btn" onClick={() => console.log("t3d")}>
+            <g
+                id="t3d"
+                className="btn"
+                onClick={() => updateModalData(CLASS_DATA.GRADE3.T3D)}
+            >
                 <rect
                     x="353.3"
                     y="1.5"
@@ -269,7 +310,11 @@ export default function F2Map() {
 			c-0.5,0-0.9,0-1.1,0.1L380.6,27.8L380.6,27.8z"
                 />
             </g>
-            <g id="t3a" className="btn" onClick={() => console.log("t3a")}>
+            <g
+                id="t3a"
+                className="btn"
+                onClick={() => updateModalData(CLASS_DATA.GRADE3.T3A)}
+            >
                 <rect
                     x="397.2"
                     y="1.5"
@@ -302,6 +347,7 @@ export default function F2Map() {
             <g
                 id="mechanical_club"
                 className="btn"
+                //TODO: メカ部
                 onClick={() => console.log("メカ部")}
             >
                 <rect
@@ -364,6 +410,7 @@ export default function F2Map() {
             <g
                 id="picuture_club"
                 className="btn"
+                //TODO: 写真部
                 onClick={() => console.log("写真部")}
             >
                 <rect
