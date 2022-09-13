@@ -14,6 +14,7 @@
 .stamp_back{
 width:300px;
 margin-top:10px;
+padding-left:30px;
   }
 .memo{
 padding-top:10px;
@@ -33,4 +34,8 @@ margin-left:110px;
   display: inline-block;
   padding: 0 5px 0 5px;
   width: 17vw;
+}
+.bingo{
+  width:300px;
+  padding:30px;
 }
