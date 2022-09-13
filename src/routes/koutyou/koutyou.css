@@ -1,16 +1,18 @@
 .syasin {
-    padding-left:50px;
-    width:150px;
-    margin:30px;
+    padding-left: 0px;
+    width: 230px;
+    margin: 30px;
 }
+
 .koutyousetumei {
-    margin-bottom:210px;
-    width:300px;
+    margin-bottom: 210px;
+    width: 300px;
 }
+
 .background_koutyou {
     background-color: #8dc2bb;
     height: 100vh;
-    width:100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,8 +21,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.Kty{
-    display:flex;
-    text-align:center;
+
+.Kty {
+    display: flex;
+    text-align: center;
     flex-flow: column;
 }
