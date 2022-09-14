@@ -18,11 +18,11 @@ export default function MapInfoModal() {
                     <p className="class_name">
                         {currentModalData.classData.className}
                     </p>
-                <p className="title">{currentModalData.classData.title}</p>
+                </div>
+                <p className="title_modal">{currentModalData.classData.title}</p>
                 <p className="description">
                     {currentModalData.classData.description}
                 </p>
-                </div>
             </div>
 
             <img
