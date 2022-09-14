@@ -13,7 +13,7 @@ export default function Header() {
     const router = useLocation();
 
     const shouldHideHeader = shouldHideHeaderRouterList.some(
-        (val) => val === router.pathname,
+        (val) => val === router.pathname
     );
     const shouldMakeGoldenHeader = router.pathname === "/koutyou";
 

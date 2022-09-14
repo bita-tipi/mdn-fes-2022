@@ -29,7 +29,7 @@ const floorIndexState = atom<number>({
     key: "floorIndexState",
 
     // caution: 1F -> F1Map() -> mapsElement[0] -> 0s
-    default: 0,
+    default: 2,
 });
 
 export { modalDataState, floorIndexState };
