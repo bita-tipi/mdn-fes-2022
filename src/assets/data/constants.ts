@@ -24,6 +24,7 @@ type classDataType = {
     className: string;
     title: string;
     description: string;
+    stampIndex?: number;
 };
 
 const CLASS_DATA = {
