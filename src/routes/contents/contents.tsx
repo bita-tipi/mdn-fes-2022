@@ -15,11 +15,6 @@ function Contents() {
     return (
         <div className="background">
             <header className="contents-container">
-                <img
-                    src={contents3}
-                    className="contents-event"
-                    alt="contents-event"
-                />
                 <Link to={"/map"}>
                     <img
                         src={contents2}
