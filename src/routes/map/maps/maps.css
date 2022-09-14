@@ -35,94 +35,7 @@
     stroke: #5e5c5c;
     stroke-linejoin: round;
 }
-.cls-1 {
-    fill: #fef9e4;
-}
-.cls-2,
-.cls-5 {
-    fill: #f3fafe;
-}
-.cls-10,
-.cls-11,
-.cls-12,
-.cls-13,
-.cls-18,
-.cls-2,
-.cls-3,
-.cls-4,
-.cls-5,
-.cls-6,
-.cls-7,
-.cls-9 {
-    stroke: #5e5c5c;
-}
-.cls-13,
-.cls-18,
-.cls-2,
-.cls-3,
-.cls-4,
-.cls-5,
-.cls-6,
-.cls-7 {
-    stroke-linejoin: round;
-}
-.cls-2,
-.cls-3 {
-    stroke-width: 1px;
-}
-.cls-19,
-.cls-3 {
-    fill: #fff;
-}
-.cls-18,
-.cls-4 {
-    fill: #bbe1e7;
-}
-.cls-4 {
-    stroke-width: 0.94px;
-}
-.cls-6 {
-    fill: #77bde9;
-}
-.cls-7 {
-    fill: #f2bfd7;
-}
-.cls-8 {
-    fill: #f3f9f8;
-}
-.cls-9 {
-    fill: #69bd83;
-}
-.cls-10,
-.cls-12,
-.cls-9 {
-    stroke-miterlimit: 10;
-}
-.cls-10 {
-    fill: #e3776a;
-}
-.cls-11 {
-    fill: #b2e0f8;
-}
-.cls-12 {
-    fill: #666;
-}
-.cls-13 {
-    fill: none;
-    stroke-width: 3px;
-}
-.cls-14 {
-    fill: #4d4e4f;
-}
-.cls-15 {
-    fill: #8ab7d6;
-}
-.cls-16 {
-    fill: #c35f5a;
-}
-.cls-17 {
-    fill: #46976c;
-}
+
 
 .map2_7 {
     fill: #8ab7d6;
@@ -201,3 +114,142 @@
 .st1{fill:#78bbcf;}
 .st2{fill:#f3f9f8;}
 .st3{fill:#5e5c5c;}
+.cls-1{fill:#78bbcf;}
+.cls-2{fill:#f3f9f8;}
+.cls-3{fill:#5e5c5c;}
+.cls-4{fill:#fef9e4;}
+.cls-5,.cls-8{fill:#f3fafe;}
+.cls-10,.cls-11,.cls-12,.cls-13,.cls-14,.cls-15,.cls-20,.cls-5,.cls-6,.cls-7,.cls-8,
+.cls-9{stroke:#5e5c5c;}
+.cls-10,.cls-15,.cls-20,.cls-5,.cls-6,.cls-7,.cls-8,
+.cls-9{stroke-linejoin:round;}
+.cls-5,
+.cls-6{stroke-width:1px;}
+.cls-21,.cls-6{fill:#fff;}
+.cls-20,
+.cls-7{fill:#bbe1e7;}
+.cls-7{stroke-width:0.94px;}
+.cls-9{fill:#77bde9;}
+.cls-10{fill:#f2bfd7;}
+.cls-11{fill:#69bd83;}
+.cls-11,.cls-12,
+.cls-14{stroke-miterlimit:10;}
+.cls-12{fill:#e3776a;}
+.cls-13{fill:#b2e0f8;}
+.cls-14{fill:#666;}
+.cls-15{fill:none;stroke-width:3px;}
+.cls-16{fill:#4d4e4f;}
+.cls-17{fill:#8ab7d6;}
+.cls-18{fill:#c35f5a;}
+.cls-19{fill:#46976c;}
+
+.sy-1{stroke-width:1.25px;}
+.sy-1,
+.sy-2{fill:#fff;}
+.sy-1,
+.sy-3,
+.sy-4,
+.sy-5,
+.sy-6,
+.sy-7{stroke:#5e5c5c;}
+.sy-8{fill:#e2cb61;}
+.sy-9{fill:#fef9e4;}
+.sy-10{fill:#46976c;}
+.sy-11{fill:#f2bfd7;}
+.sy-2{font-family:KozGoPr6N-Regular-90ms-RKSJ-H, 'Kozuka Gothic Pr6N';font-size:11.62px;stroke:#fff;stroke-width:.25px;}
+.sy-2,
+.sy-12,
+.sy-13{stroke-miterlimit:10;}
+.sy-12{stroke:url(#_新規パターンスウォッチ_2);stroke-width:1.28px;}
+.sy-12,.sy-3,.sy-4,.sy-14,.sy-13,.sy-15,
+.sy-7{fill:none;}
+.sy-16{fill:#77bde9;}
+.sy-3,.sy-4,.sy-5,.sy-6,
+.sy-7{stroke-linejoin:round;}
+.sy-3,.sy-5,
+.sy-7{stroke-linecap:round;}
+.sy-17{fill:#f3fafe;}
+.sy-18{fill:#76b5de;}
+.sy-19{fill:#fbedcc;}
+.sy-20{fill:#b2ce65;}
+.sy-13{stroke:#ed0;stroke-width:2px;}
+.sy-5{fill:#f3ed66;}
+.sy-15{stroke:#231815;}
+.sy-6{fill:#69bd83;}
+.sy-21{fill:#f3f9f8;}
+.sy-22{fill:#f7d15f;}
+.sy-23{fill:#d2a834;}
+.sy-7{stroke-width:3px;}
+.si-1{fill:#fef9e4;}
+.si-2,
+.si-29,
+.si-3,
+.si-36,
+.si-6,
+.si-7{fill:#f3f9f8;}
+.si-10,
+.si-11,
+.si-12,
+.si-13,
+.si-16,
+.si-18,
+.si-2,
+.si-20,
+.si-22,
+.si-24,
+.si-25,
+.si-26,
+.si-28,
+.si-29,
+.si-3,
+.si-30,
+.si-31,
+.si-32,
+.si-33,
+.si-34,
+.si-35,
+.si-4,
+.si-5,
+.si-6,
+.si-7,
+.si-8,
+.si-9{stroke:#5e5c5c;}
+.si-10,
+.si-12,
+.si-2,
+.si-29,
+.si-33,.si-34,.si-6,.si-7,.si-8,
+.si-9{stroke-linejoin:round;}
+.si-4{fill:#b2ce65;
+}.si-5,
+.si-9{fill:#f2bfd7;}
+.si-6{stroke-width:1.07px;}
+.si-7{stroke-width:0.88px;}
+.si-11,.si-8{fill:#76b5de;}
+.si-10,.si-12{fill:#bbe1e7;}
+.si-10{stroke-width:0.94px;}
+.si-12,.si-33{stroke-width:3px;}
+.si-13{fill:#b2e0f8;}
+.si-14{fill:#8ab7d6;}
+.si-15,.si-28,.si-32,
+.si-38{fill:#fff;}
+.si-16{fill:#666;}
+.si-16,.si-20,.si-22,.si-24,.si-25,
+.si-26{stroke-miterlimit:10;}
+.si-17{fill:#4d4e4f;}
+.si-18,.si-24{fill:#69bd83;}
+.si-19{fill:#46976c;}
+.si-20{fill:#ed8182;}
+.si-21{fill:#c35f5a;}
+.si-22{fill:#f7ca88;}
+.si-23{fill:#daa86e;}
+.si-25{fill:#e3776a;}
+.si-26{fill:#f7ea67;}
+.si-27{fill:#dbcc5c;}
+.si-29,.si-30,.si-31,.si-32,
+.si-34{stroke-width:1px;}
+.si-30{fill:#5e5c5c;}
+.si-31,.si-33,.si-34,
+.si-35{fill:none;}
+.si-37{fill:#ccc;}
+.si-38{font-size:17.69px;font-family:KozGoPr6N-Regular-83pv-RKSJ-H, Kozuka Gothic Pr6N;}.si-39{fill:#f3fafe;}
