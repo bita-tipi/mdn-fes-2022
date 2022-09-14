@@ -14,15 +14,35 @@ function Top_back() {
         <div>
             <header className="top_back">
                 <div>
-                    <img src={under_center} className="under_center" />
+                    <img
+                        src={under_center}
+                        className="under_center"
+                        alt="under_center"
+                    />
                     <Link to={`/contents`}>
-                        <img src={top_link} className="under_link" />
+                        <img
+                            src={top_link}
+                            className="under_link"
+                            alt="under_link"
+                        />
                     </Link>
-                    <img src={under_moji} className="under_moji" />
-                    <img src={hata} className="hata" />
-                    <img src={under_obi} className="under_obi" />
+                    <img
+                        src={under_moji}
+                        className="under_moji"
+                        alt="under_moji"
+                    />
+                    <img src={hata} className="hata" alt="hata" />
+                    <img
+                        src={under_obi}
+                        className="under_obi"
+                        alt="under_obi"
+                    />
                     <Link to={"/"}>
-                        <img src={schedule} className="back_schedule" />
+                        <img
+                            src={schedule}
+                            className="back_schedule"
+                            alt="back_schedule"
+                        />
                     </Link>
                 </div>
             </header>
