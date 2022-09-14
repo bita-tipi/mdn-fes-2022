@@ -18,11 +18,11 @@ export default function MapInfoModal() {
                     <p className="class_name">
                         {currentModalData.classData.className}
                     </p>
-                </div>
-                <p className="title">asdf</p>
+                <p className="title">{currentModalData.classData.title}</p>
                 <p className="description">
                     {currentModalData.classData.description}
                 </p>
+                </div>
             </div>
 
             <img
@@ -33,3 +33,4 @@ export default function MapInfoModal() {
         </div>
     );
 }
+

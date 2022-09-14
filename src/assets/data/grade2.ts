@@ -100,7 +100,7 @@ const T2C: classDataType = {
 
 const J2A: classDataType = {
     className: "J2A",
-    title: "えんにちかも～",
+    title: "えんにちかも～🍆",
     description: "縁日なんて子供じみたこと興味ねえ〜よ！だって？！？！！俺らは「本気」だぜ…！！！",
     stampIndex: 5,
 } as const;

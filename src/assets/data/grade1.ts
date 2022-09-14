@@ -98,6 +98,13 @@ const T1D: classDataType = {
     stampIndex: 2,
 } as const;
 
+const PTA: classDataType = {
+    className: "PTA",
+    title: "MEIDENエールの木",
+    description: "花びらにみんなが元気になるメッセージを書いて貼ってください",
+    stampIndex: 2,
+} as const;
+
 const GRADE1 = {
     G1A,
     G1B,
@@ -113,6 +120,7 @@ const GRADE1 = {
     T1B,
     T1C,
     T1D,
+    PTA,
 } as const;
 type GRADE1 = valueOf<typeof GRADE1>;
 export default GRADE1;
