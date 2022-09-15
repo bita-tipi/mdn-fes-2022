@@ -12,7 +12,6 @@ function Theme() {
                 <img src={midasi} className="midasi" alt="midasi" />
                 <img src={main} className="main" alt="main" />
                 <img src={MV} className="MV" alt="MV" />
-                <video ></video>
             </div>
         </body>
     );
