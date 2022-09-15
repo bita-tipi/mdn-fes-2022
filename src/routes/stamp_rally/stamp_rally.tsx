@@ -11,6 +11,7 @@ import stamp6 from "../../assets/img/shoes.svg";
 import stamp7 from "../../assets/img/gun.svg";
 import stamp8 from "../../assets/img/bell.svg";
 import stamp9 from "../../assets/img/umbrella.svg";
+import popButton from "../../assets/img/pop_button.svg";
 import yellowCell from "../../assets/img/back_y.svg";
 import pinkCell from "../../assets/img/back_p.svg";
 import "./stamp_rally.css";
@@ -45,8 +46,11 @@ const initShowedStamp = [
 ];
 function Stamp_rally() {
 
-    
-    //
+    function Google() {
+        const redirectToGoogle = () => {
+          window.location.href = "https://forms.gle/RRAP5cKD1NNMoMWUA";
+        };
+    }
     //
     // reactHooks definition; do not remove
     const [currentShowedStamp, updateShowedStamp] = useState(initShowedStamp);
@@ -57,6 +61,9 @@ function Stamp_rally() {
         const deepCopiedList = JSON.parse(JSON.stringify(currentShowedStamp));
         deepCopiedList[truthyIndex] = true;
         updateShowedStamp(deepCopiedList);
+        new LocalStorage("data").register(
+            { showedStamp: currentShowedStamp }
+            )
     }
     // -- definition end --
 
@@ -67,6 +74,13 @@ function Stamp_rally() {
 
     // 1度だけ実行する
     useEffect( () => {
+        const data = new LocalStorage("data").get();
+if (data !== null) {
+    // localStorageから読み込み
+    const storedShowedStamp = JSON.parse(data).showedStamp as boolean[];
+    // そのまま shouldStamp をアップデート
+    updateShowedStamp(storedShowedStamp);
+}
         // パラメーターが存在したかの確認 -> スタンプラリーの処理はじめ
         if (hashParam !== null && !initShowedStamp.every((v) => v)) {
             const stampIndex = getStampIndex(hashParam);
@@ -117,6 +131,7 @@ function Stamp_rally() {
         <body className="background_stamp">
             <div className="stamp_main">
                 <div className="flex">{getStampElement()}</div>
+                <img src={popButton} className="bingo" onClick={Google} />
                 <img src={bingo} className="bingo" alt="bingo" />
             </div>
         </body>
