@@ -36,9 +36,9 @@ function Contents() {
                         alt="router-button"
                     />
                 </Link>
-                <Link to={`/zenya`}>
+                <Link to={`/schedule`}>
                     <img
-                        src={contents5}
+                        src={contents8}
                         className="router-button"
                         alt="router-button"
                     />
@@ -57,9 +57,9 @@ function Contents() {
                         alt="router-button"
                     />
                 </Link>
-                <Link to={`/schedule`}>
+                <Link to={`/zenya`}>
                     <img
-                        src={contents8}
+                        src={contents5}
                         className="router-button"
                         alt="router-button"
                     />
