@@ -47,9 +47,7 @@ const initShowedStamp = [
 function Stamp_rally() {
 
     function Google() {
-        const redirectToGoogle = () => {
           window.location.href = "https://forms.gle/RRAP5cKD1NNMoMWUA";
-        };
     }
     //
     // reactHooks definition; do not remove
