@@ -15,14 +15,22 @@ import stamp8 from "../../assets/img/gun.svg";
 import stamp9 from "../../assets/img/gun.svg";
 import "./stamp_rally.css";
 import Header from "../header/headermain";
-import Stamp from "./Stamp";
+import { classDataType, CLASS_DATA } from "../../assets/data/constants";
+import {useParams} from 'react-router-dom';
+import {hashTable} from "../../model/hash-table"
+import {getStampIndex} from "../../model/hash-table"
+
 
 const stamp = [
     [stamp1, stamp2, stamp3, stamp4, stamp5, stamp6, stamp7, stamp8, stamp9],
 ];
 
+
 function Stamp_rally() {
+    const hashParams = useParams()
     const [currentStampCell, updateStampCell] = useState(0);
+
+console.log(hashTable.get("a"));
 
     return (
         <body className="background_stamp">
