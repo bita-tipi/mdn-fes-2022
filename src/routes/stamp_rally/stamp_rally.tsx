@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import back from "../../assets/img/background_stamp.svg";
 import bingo from "../../assets/img/stamp_setumei.svg";
@@ -17,6 +17,7 @@ import "./stamp_rally.css";
 import { assert } from "../../assets/data/constants";
 import { useLocation } from "react-router-dom";
 import { getStampIndex } from "../../model/hash-table";
+import { LocalStorage } from "../../model/hash-table";
 
 
 const stamps = [
@@ -43,6 +44,8 @@ const initShowedStamp = [
     false,
 ];
 function Stamp_rally() {
+
+    
     //
     //
     // reactHooks definition; do not remove
@@ -62,31 +65,40 @@ function Stamp_rally() {
     const hashParam = wholeParam.get("c");
     console.log(`hashParam => ${hashParam}`);
 
-    // パラメーターが存在したかの確認 -> スタンプラリーの処理はじめ
-    if (hashParam !== null) {
-        const stampIndex = getStampIndex(hashParam);
+    // 1度だけ実行する
+    useEffect( () => {
+        // パラメーターが存在したかの確認 -> スタンプラリーの処理はじめ
+        if (hashParam !== null && !initShowedStamp.every((v) => v)) {
+            const stampIndex = getStampIndex(hashParam);
 
-        // stampIndex番目のinitShowedStampをtrueをするよ
-        updateIndexedShowedStamp2Truthy(stampIndex);
-    }
+            // stampIndex番目のinitShowedStampをtrueをするよ
+            updateIndexedShowedStamp2Truthy(stampIndex);
+
+            new LocalStorage("data").register({
+                showedStamp:currentShowedStamp,
+            });
+        }
+        return;
+
+    },[]);
+
     const getStampElement = () => {
         let stampElement = [];
 
         for (let index = 0; index < stamps.length; index++) {
             stampElement.push(
-                <div>
+                <div key={index}>
                     {
                         // セル (背景の枠) の表示
                         <img
                             src={index % 2 === 0 ? pinkCell : yellowCell}
-                            alt="cell"
-                            className="back_stamp"
+                            alt="cell" className="back_stamp"
                         />
                     }
                     {
                         // スタンプの表示
                         currentShowedStamp[index] ? (
-                            <img src={stamps[index]} alt="stamps" className="back_stamp"/>
+                            <img src={stamps[index]} alt="stamps" className="main_stamp"/>
                         ) : (
                             <></>
                         )
@@ -112,3 +124,4 @@ function Stamp_rally() {
 }
 
 export default Stamp_rally;
+

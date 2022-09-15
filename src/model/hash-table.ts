@@ -61,3 +61,24 @@ export function getStampIndex(
 
     return stampIndex;
 }
+
+export class LocalStorage {
+    constructor(private key: string) {}
+
+    public register(obj: object): void {
+        const json = JSON.stringify(obj);
+        localStorage.setItem(this.key, json);
+    }
+
+    public get(): string | null {
+        return localStorage.getItem(this.key);
+    }
+
+    public delete(): void {
+        localStorage.removeItem(this.key);
+    }
+
+    static clear(): void {
+        localStorage.clear();
+    }
+}
