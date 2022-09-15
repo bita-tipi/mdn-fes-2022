@@ -39,3 +39,14 @@
     width: 300px;
     padding: 30px;
 }
+.back_stamp{
+    width:80px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    width:300px;
+    margin-left:8%;
+    justify-content:space-between;
+    margin-top:5%;
+}
